@@ -1,1 +1,76 @@
 
+function Load(){
+
+    var turn = 2;
+
+    if(turn == 1){
+        alert("Js file is turned off");
+
+    }
+    if (turn == 2) {
+
+
+        
+    } 
+    else{
+
+        var getinfo,getwth,gethei,px;
+        px = "px";
+
+        gethei = screen.availHeight;
+        getwth = screen.availWidth;
+
+
+        getinfo = "[DISPLAY] " + getwth + px + " " + gethei + px;
+     
+        
+        var show;
+    
+        show = document.getElementById('show');
+        show.innerHTML = getinfo;
+      
+
+
+    }
+
+
+
+}
+
+function CheckDiv(){
+    var sizwth,sizhei,control,valbox,checkbox;
+
+    control = 0;
+
+    valbox = document.getElementById('valbox').value;
+
+ 
+    checkbox = document.getElementById(valbox);
+
+
+
+    sizwth = checkbox.offsetWidth;
+    sizhei = checkbox.offsetHeight;
+    var finsiz;
+
+    finsiz = sizwth + sizhei;
+
+
+    if(control == 1){
+
+
+
+    }
+        if(finsiz < 1){
+
+}
+    else{
+    
+        alert("[SIZE OF: ]" + valbox + " " + sizwth + " " + sizhei + " ");
+        
+
+    }
+
+
+
+}
