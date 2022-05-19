@@ -63,14 +63,28 @@ function CheckDiv(){
     }
         if(finsiz < 1){
 
-}
-    else{
+            alert("problem");
+
+        }
+        else{
+            if(finsiz > 1){
+
+                alert("[SIZE OF: ]" + valbox + " " + sizwth + " " + sizhei + " ");
+            
     
-        alert("[SIZE OF: ]" + valbox + " " + sizwth + " " + sizhei + " ");
+            }
+            else{
+                alert("[ERROR: ]" + "Nie ma");
+                
+              
+        
+            }
         
 
-    }
 
+        }
+      
+ 
 
 
 }
