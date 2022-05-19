@@ -10,15 +10,15 @@
 <b>Update log:</b>
 <br/>
   <h4><b>19/05/2022</b></h4>
-<h3><i>- I started this project</i></h3>
-  <h3><i>- maked the basic files like: css,simple js script</i></h3>
+<h5><i>- I started this project</i></h5>
+  <h5><i>- maked the basic files like: css,simple js script</i></h5>
   
   <br/>
   <h4><b>20/05/2022</b></h4>
-<h3><i>??</i></h3>
+<h5><i>??</i></h5>
   <br/>
   <h4><b>22/05/2022</b></h4>
-<h3><i>???</i></h3>
+<h5><i>???</i></h5>
   <br/>
   <h4><b>More in Update_log.txt</b></h4>
 
