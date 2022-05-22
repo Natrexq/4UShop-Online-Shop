@@ -1,6 +1,16 @@
 function Main(){
 
+    var click;
+
+    click = document.getElementById('foru');
+
+    click.addEventListener('click', function DoClicked(){
+
+        alert("g");
+    } );
+
     
+
 }
 function Load(){
 
