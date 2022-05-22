@@ -19,11 +19,15 @@
     <link rel="stylesheet" href="css/main.css">
 
         <div class="in_home">
-            <h1 class="xd">AAA</h1>
+            <h1 class="tx_home">4USHOP</h1>
 
         </div>
         <div class="in_home_nav">
-            <h1 class="x">test</h1>
+            <h3 class="tx_home_nav">HOME</h3>
+            <h3 class="tx_home_nav">BUY</h3>
+            <h3 class="tx_home_nav">ABOUT US</h3>
+            <h3 class="tx_home_nav">DATA AND PRIVACY</h3>
+            <h3 class="tx_home_nav">SETTINGS</h3>
 
         </div>
         <div class="in_sh">
