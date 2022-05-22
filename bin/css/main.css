@@ -73,10 +73,7 @@ div.in_sh{
                width: 50%;
                height: 100%;
                transition: filter 1s;
-               -webkit-transform:;
-               -moz-transform:;
-               -ms-transform:;
-               -o-transform:;
+             
                -webkit-transition: filter 1s;
                -moz-transition: filter 1s;
                -ms-transition: filter 1s;
