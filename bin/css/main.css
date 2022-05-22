@@ -70,7 +70,7 @@ div.in_sh{
                background-size:cover;
               
                background-image: url("hmrig.jpg");
-               width: 50%;
+               width: 100%;
                height: 100%;
                transition: filter 1s;
              
@@ -83,24 +83,7 @@ div.in_sh{
                 filter: blur(3px);
                 -webkit-filter: blur(3px);
 } 
-            div.wel_imgR{
-               
-                float: left;
-                background-size:cover;
-                background-image: url("hmleft.jpg");
-                width: 50%;
-                height: 100%;
-                transition: filter 1s;
-                -webkit-transition: filter 1s;
-                -moz-transition: filter 1s;
-                -ms-transition: filter 1s;
-                -o-transition: filter 1s;
-}
-            div.wel_imgR:hover{
-                filter: blur(3px);
-               -webkit-filter: blur(3px);
-} 
-
+        
 
 
 
