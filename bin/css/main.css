@@ -62,21 +62,47 @@ div.in_sh{
         div.sh_welcome{
             background-color: blanchedalmond;
             width: 100%;
-            height: 39em;
+            height: 46em;
 
         }
             div.wel_imgL{
                float: left;
-                background-color: aquamarine;
-                width: 50%;
-                height: 100%;
-            }
+               background-size:cover;
+              
+               background-image: url("hmrig.jpg");
+               width: 50%;
+               height: 100%;
+               transition: filter 1s;
+               -webkit-transform:;
+               -moz-transform:;
+               -ms-transform:;
+               -o-transform:;
+               -webkit-transition: filter 1s;
+               -moz-transition: filter 1s;
+               -ms-transition: filter 1s;
+               -o-transition: filter 1s;
+}
+            div.wel_imgL:hover{
+                filter: blur(3px);
+                -webkit-filter: blur(3px);
+} 
             div.wel_imgR{
+               
                 float: left;
-                background-image: url("hmleft.png");
+                background-size:cover;
+                background-image: url("hmleft.jpg");
                 width: 50%;
                 height: 100%;
-            }
+                transition: filter 1s;
+                -webkit-transition: filter 1s;
+                -moz-transition: filter 1s;
+                -ms-transition: filter 1s;
+                -o-transition: filter 1s;
+}
+            div.wel_imgR:hover{
+                filter: blur(3px);
+               -webkit-filter: blur(3px);
+} 
 
 
 
