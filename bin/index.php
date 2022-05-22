@@ -12,15 +12,15 @@
       
         <title>4UShop.com</title>
         
-    
+        <script src="javascript/main.js" type="text/javascript"></script>
 
     </head>
-    <script src="javascript/main.js" type="text/javascript"></script>
-    <body onload="Sticknav()">
+ 
+    <body onload="Main()">
     <link rel="stylesheet" href="css/main.css">
 
         <div class="in_home">
-            <h1 class="tx_home">4USHOP</h1>
+            <h1 class="tx_home" id="foru">4USHOP</h1>
 
         </div>
         <div class="in_home_nav" id="homenav">
