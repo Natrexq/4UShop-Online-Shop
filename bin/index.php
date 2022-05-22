@@ -23,11 +23,17 @@
 
         </div>
         <div class="in_home_nav">
-            <h3 class="tx_home_nav">HOME</h3>
+
+        <div class="home_nav_buts">
+            
+             <h3 class="tx_home_nav">HOME</h3>
             <h3 class="tx_home_nav">BUY</h3>
             <h3 class="tx_home_nav">ABOUT US</h3>
             <h3 class="tx_home_nav">DATA AND PRIVACY</h3>
             <h3 class="tx_home_nav">SETTINGS</h3>
+
+        </div>
+            
 
         </div>
         <div class="in_sh">
