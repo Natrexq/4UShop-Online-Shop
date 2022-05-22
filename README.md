@@ -14,10 +14,11 @@
   <h5><i>- maked the basic files like: css,simple js script</i></h5>
   
   <br/>
-  <h4><b>20/05/2022</b></h4>
-<h5><i>??</i></h5>
-  <br/>
   <h4><b>22/05/2022</b></h4>
+<h5><i>- Maked better styles of home page</i></h5>
+  <h5><i>- I added one new function</i></h5>
+  <br/>
+  <h4><b>23/05/2022</b></h4>
 <h5><i>???</i></h5>
   <br/>
   <h4><b>More in Update_log.txt</b></h4>
