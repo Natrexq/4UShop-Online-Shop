@@ -15,17 +15,18 @@
     
 
     </head>
-    <body>
+    <script src="javascript/main.js" type="text/javascript"></script>
+    <body onload="Sticknav()">
     <link rel="stylesheet" href="css/main.css">
 
         <div class="in_home">
             <h1 class="tx_home">4USHOP</h1>
 
         </div>
-        <div class="in_home_nav">
+        <div class="in_home_nav" id="homenav">
+       
+        <div class="home_nav_buts" >
 
-        <div class="home_nav_buts">
-            
              <h3 class="tx_home_nav">HOME</h3>
             <h3 class="tx_home_nav">BUY</h3>
             <h3 class="tx_home_nav">ABOUT US</h3>
