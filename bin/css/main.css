@@ -37,8 +37,16 @@ div.in_home_nav{
     color: white;
     background-color: 	#242526;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
 }
+    div.home_nav_buts{
+        width: 55%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    }
 
 /*!4 TEXT */
 
@@ -48,6 +56,15 @@ h1.tx_home{
     font-size: 160%;
     margin-top: 0.4em;
     margin-left: 0.7em;
+
+}
+h3.tx_home_nav{
+    color: #FFFFFF;
+    margin-top: 0.5em;
+    font-size: 120%;
+    
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
 
 }
 
