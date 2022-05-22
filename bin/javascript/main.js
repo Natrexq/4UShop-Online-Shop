@@ -1,4 +1,7 @@
+function Main(){
 
+    
+}
 function Load(){
 
     var turn = 2;
