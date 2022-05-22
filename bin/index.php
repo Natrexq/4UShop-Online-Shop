@@ -38,12 +38,20 @@
 
         </div>
         <div class="in_sh">
+            <div class="sh_welcome">
+                <div class="wel_imgL"></div>
+                <div class="wel_imgR"></div>
 
+
+
+
+            </div>
 
 
 
         </div>
-        <div class="4in_end">
+        <div class="in_end">
+            <h1>End</h1>
             <div class="in_dev">
                 <h5 class="tx_dev">
 
