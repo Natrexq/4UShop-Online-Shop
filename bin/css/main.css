@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 
 body{
     width: 100%;
-    height: 150em;
+    height: 145em;
     float: left;
     margin: 0;
     background-color: rgb(234, 234, 234);
@@ -148,8 +148,12 @@ div.in_sh{
             margin-top: 2em;
             width: 55em;
             height: 26em;
-            background-color: rgb(255, 145, 0);
-        }
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            background-image: url('hmrig.jpg');
+            
+}
             /*div.wel_imgL{
                float: left;
                background-size:cover;
@@ -174,14 +178,20 @@ div.in_info{
     display: flex;
     justify-content: center;
     float: left;
-    background-color: aqua;
+    background-color: #2D4263;;
     height: 12em;
+}
+div.infbar{
+    width: 100%;
+    float: left;
+    background-color: #1d2c45;;
+    height: 3em;
 }
 div.in_item{
     width: 100%;
     float: left;
     height: 60em;
-    background-color: yellow;
+    background-color: 	#f8f8f8;
 }
 
 
@@ -242,6 +252,14 @@ h2.author{
     font-weight: normal;
     cursor: grab;
     font-size: 80%;
+}
+.tx_wel_soon{
+    color: #FFFFFF;
+    margin-top: 2.5em;
+    font-size: 400%;
+font-family: 'Roboto', sans-serif;
+    
+   
 }
 
 /*!3 BUTTONS*/
