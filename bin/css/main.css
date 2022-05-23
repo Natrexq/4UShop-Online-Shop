@@ -247,6 +247,29 @@ h3.tx_home_nav{
                 background-color: rgb(255, 152, 26);
 
             }
+
+button.nav_navbuts{
+ width: 4.5em;
+ height: 100%;
+ border: none;
+ background: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 80%;
+ transition: font-size 500ms;
+ -webkit-transition: font-size 500ms;
+ -moz-transition: font-size 500ms;
+ -ms-transition: font-size 500ms;
+ -o-transition: font-size 500ms;
+}
+    .nav_navbuts:hover{
+            
+            font-size: 90%;
+            
+    }
+    .nav_butback:active{
+            font-weight: bold;
+    }
+    
 /*!6 IMAGES*/
 
 
