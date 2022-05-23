@@ -31,7 +31,7 @@
                     <div class="el_fixnav">
                       <div class="el_nav">
                       <div class="nav_author">
-                                <h2 class="author">Author</h2>
+                                <h2 class="author" onclick="window.open('https://github.com/Natrexq');">Created by Natrexq</h2>
                             </div>
                             <div class="nav_butback">
                                 
