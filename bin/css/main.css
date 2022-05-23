@@ -63,10 +63,18 @@ div.in_home{
 
         .el_nav{
             width: 40em;
-            
+            display: flex;
+            justify-content: right;
             height: 1.6em;
             background-color: rgb(255, 255, 255);
         }
+                .nav_butback{
+                    
+                    width: 18em;
+                    display: inline-flex;
+                    justify-content: space-around;
+                    background-color: none;
+                }
 
             
 
