@@ -113,22 +113,19 @@
         <div class="in_end">
            
             <div class="in_dev">
-                <h5 class="tx_dev">
-                        jo
-
-                </h5>
+                <h2 class="end_intr">CREDITS</h2>
 
             </div>
             <div class="in_ath">
                 <h5 class="tx_dev">
-                        jo
+                <h2 class="end_intr">SOCIAL MEDIA</h2>
 
                 </h5>
 
             </div>
             <div class="in_cre">
                 <h5 class="tx_dev">
-                        jo
+                <h2 class="end_intr">CONTACT</h2>
 
                 </h5>
 
