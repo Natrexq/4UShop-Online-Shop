@@ -218,13 +218,13 @@ div.in_end{
         margin-top: 3em;
         height: 10em;
         width: 20em;
-        background-color: wheat;
+        background: none;
     }
     .in_ath{
         margin-top: 3em;
         height: 10em;
         width: 20em;
-        background-color: wheat;
+        background: none;
     }
     .in_cre{
         
@@ -232,7 +232,7 @@ div.in_end{
         margin-top: 3em;
         height: 10em;
         width: 20em;
-        background-color: wheat;
+        background: none;
     }
 
 /*!4 TEXT */
@@ -283,10 +283,14 @@ font-family: 'Roboto', sans-serif;
    
 }
 .end_intr{
+    
     color: #FFFFFF;
     font-family: 'Prompt', sans-serif;
     font-size: 180%;
-    
+    border-bottom: 4px solid  #2b374b;
+    border-bottom-style: dashed;
+
+
     text-align: center;
     margin: 0.6em 0em 0em 0em;
 }
