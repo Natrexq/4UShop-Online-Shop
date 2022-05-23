@@ -253,7 +253,8 @@ h3.tx_home_nav{
     
        font-family: 'Prompt', sans-serif;
 
-}
+}   
+    .tx_home_nav:hover{font-size: 120%; margin-top: 0.4em;}
 .tx_info{
     font-family: 'Prompt', sans-serif;
     font-size: 320%;
