@@ -1,5 +1,10 @@
 <?php
+    $crtby_item = "Unkown";
+    $crtby_id = "0";
+    $crtby_status;
 
+    $way = "UNKOWN";
+   // $way = $crtby_item + "/" + $crtby_id + "Cart" + "/" + "Finalize" ;
 
 
 
@@ -32,7 +37,13 @@
                     <div class="el_fixnav">
                       <div class="el_nav">
                         <div class="nav_way">
-                            <h2 class="way"></h1>
+                            <h2 class="way">
+                            <?php
+                                echo $way;
+                                ?>
+
+
+                            </h1>
                         </div>
                             <div class="nav_butback">
 
