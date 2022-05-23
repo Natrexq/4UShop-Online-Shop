@@ -21,7 +21,7 @@
 
         <div class="in_home">
             <div class="home_el">
-
+          
        
 
                 <div class="el_lgs">
@@ -57,14 +57,19 @@
 
         </div>
         <div class="in_home_nav" id="homenav">
-       
+  
         <div class="home_nav_buts" >
+        <div class="hmnav_cart">
+                    <button type="submit" class="but_gocart"></button>
+                    <h1 class="cartcount">0</h1>
+            </div>
 
              <h3 class="tx_home_nav">HOME</h3>
             <h3 class="tx_home_nav">SHOPPING</h3>
             <h3 class="tx_home_nav">JOIN US</h3>
             <h3 class="tx_home_nav">CART</h3>
             <h3 class="tx_home_nav">HELP</h3>
+          
         
         </div>
             
