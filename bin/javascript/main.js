@@ -104,3 +104,7 @@ function CheckDiv(){
 function GoCart(){
     location.href = "/bin/cart.html";
 }
+function BackHome(){
+    location.href = "/bin/index.php";
+    
+}
