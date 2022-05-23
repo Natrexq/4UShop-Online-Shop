@@ -236,7 +236,12 @@ h1.cartcount{
     font-size: 130%;
 }
 h2.author{
-    font-size: 100%;
+    margin: 0.5em 0em 0em 0.8em;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    cursor: grab;
+    font-size: 80%;
 }
 
 /*!3 BUTTONS*/
