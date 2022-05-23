@@ -53,7 +53,9 @@ div.in_home{
 
 
         }
-                        .el_backsrch{
+                        .el_srch{
+                            display: flex;
+                            justify-content: center;
                             width: 40em;
                             height: 100%;
                             background-color: #2D4263;
@@ -201,8 +203,42 @@ h3.tx_home_nav{
 
 
 /*!5 INPUTS*/
+    input.inp_srch{
+        width: 18em;
+        height: 2.4em;
+        margin-top: 0.8em;
+        transition: width 1s;
+        -webkit-transition: width 1s;
+        -moz-transition: width 1s;
+        -ms-transition: width 1s;
+        -o-transition: width 1s;
+}   
+            .inp_srch:focus{
+                width: 22em;
+                outline: none;
+            }
 
 
+    button.but_dosrch{
+        width: 5em;
+        margin: 0.6em 0em 0em 0.5em;
+        /*TOP,RIGHT,BOTTOM,LEFT*/height: 3em;
+        background-color: rgb(255, 125, 26);
+        transition: background-color 500ms, width 500ms;
+        border: none;
+        color: white;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bold;
+        -webkit-transition: background-color 500ms, width 500ms;
+        -moz-transition: background-color 500ms, width 500ms;
+        -ms-transition: background-color 500ms, width 500ms;
+        -o-transition: background-color 500ms, width 500ms;
+}
+            .but_dosrch:hover,.but_dosrch:active{
+                width: 5.5em;
+                background-color: rgb(255, 152, 26);
+
+            }
 /*!6 IMAGES*/
 
 
