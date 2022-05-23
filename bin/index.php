@@ -21,12 +21,31 @@
 
         <div class="in_home">
             <div class="home_el">
-                <div class="el_lg">
 
+       
+
+                <div class="el_lgs">
+                <h1 class="tx_home" id="foru">4USHOP</h1>
 
                 </div>
+                    <div class="el_fixnav">
+                      <div class="el_nav">
+
+
+                                </div>
+                          
+                                
+                                <div class="el_backsrch">
+                        
+
+
+                        </div>
+
+                    </div>
+            
+               
             </div>
-            <h1 class="tx_home" id="foru">4USHOP</h1>
+           
 
         </div>
         <div class="in_home_nav" id="homenav">
