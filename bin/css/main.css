@@ -227,6 +227,8 @@ div.in_end{
         background-color: wheat;
     }
     .in_cre{
+        
+        
         margin-top: 3em;
         height: 10em;
         width: 20em;
@@ -279,6 +281,22 @@ h2.author{
 font-family: 'Roboto', sans-serif;
     
    
+}
+.end_intr{
+    color: #FFFFFF;
+    font-family: 'Prompt', sans-serif;
+    font-size: 180%;
+    
+    text-align: center;
+    margin: 0.6em 0em 0em 0em;
+}
+.end_cr{
+    color: #FFFFFF;
+    font-family: 'Prompt', sans-serif;
+    font-size: 110%;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
 }
 
 /*!3 BUTTONS*/
