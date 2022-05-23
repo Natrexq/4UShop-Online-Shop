@@ -160,6 +160,7 @@ h1.tx_home{
     -o-transition: font-size 500ms, margin-top 1s;
 }
 .tx_home_nav:hover{font-size: 120%; margin-top: 0.4em;}
+
 h3.tx_home_nav{
     color: rgb(230, 230, 230);
     margin-top: 0.6em;
