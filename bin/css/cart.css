@@ -69,7 +69,13 @@ div.in_home{
             justify-content: right;
             height: 1.6em;
             background-color: rgb(255, 255, 255);
-        }
+        }        .nav_way{
+                            background-color: none;
+                               width: 22em;
+                          display: flex;
+                                      justify-content: left;
+                             }
+
                 .nav_butback{
                     
                     width: 18em;
@@ -158,6 +164,14 @@ h3.tx_home_nav{
     
        font-family: 'Prompt', sans-serif;
 
+}
+h2.way{
+    margin: 0.5em 0em 0em 0.8em;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    cursor: grab;
+    font-size: 80%;
 }
 
 
