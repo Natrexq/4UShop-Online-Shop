@@ -30,16 +30,24 @@
                 </div>
                     <div class="el_fixnav">
                       <div class="el_nav">
+                            <div class="nav_butback">
 
+                            <button type="submit" class="nav_navbuts">Status</button>
+                                        <button type="submit" class="nav_navbuts">About</button>
+                                        <button type="submit" class="nav_navbuts">Contect</button>
+                                        <button type="submit" class="nav_navbuts">Settings</button>
+
+                            </div>
+                                     
 
                                 </div>
                           
                                 
-                                <div class="el_backsrch">
+                                <div class="el_srch">
                         
-
-
-                        </div>
+                                            <input type="search" name="" class="inp_srch" id="">
+                                            <button class="but_dosrch" type="submit">Search</button>
+                                     </div>
 
                     </div>
             
