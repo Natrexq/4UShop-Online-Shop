@@ -207,12 +207,31 @@ div.in_item{
 div.in_end{
     color: white;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
     float: left;
     height: 16em;
     background-color: 	#111111;
 
 }
-
+    .in_dev{
+        margin-top: 3em;
+        height: 10em;
+        width: 20em;
+        background-color: wheat;
+    }
+    .in_ath{
+        margin-top: 3em;
+        height: 10em;
+        width: 20em;
+        background-color: wheat;
+    }
+    .in_cre{
+        margin-top: 3em;
+        height: 10em;
+        width: 20em;
+        background-color: wheat;
+    }
 
 /*!4 TEXT */
 
