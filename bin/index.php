@@ -114,11 +114,18 @@
            
             <div class="in_dev">
                 <h2 class="end_intr">CREDITS</h2>
+                <h4 class="end_cr">Project: Natrexq</h4>
+                <h4 class="end_cr">Code: Natrexq</h4>
+                <h4 class="end_cr">Pic: Free to use images</h4>
+               
+
 
             </div>
             <div class="in_ath">
                 <h5 class="tx_dev">
-                <h2 class="end_intr">SOCIAL MEDIA</h2>
+                <h2 class="end_intr">PROJECT</h2>
+                <h4 class="end_cr" onclick="window.open('https://github.com/Natrexq');"><b><i>Look at Project</i></b></h4>
+                <h4 class="end_cr">(*click it*)</h4>
 
                 </h5>
 
@@ -126,6 +133,7 @@
             <div class="in_cre">
                 <h5 class="tx_dev">
                 <h2 class="end_intr">CONTACT</h2>
+                <h4 class="end_cr">Email: unkown@domain.com</h4>
 
                 </h5>
 
