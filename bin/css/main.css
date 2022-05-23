@@ -31,7 +31,7 @@ div.in_home{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 5em;
+    height: 6em;
      
 
 }
@@ -43,6 +43,8 @@ div.in_home{
         justify-content: left;
     }
         .el_lgs{
+            display: inline-flex;
+            justify-content: center;
             width: 10em;
             height: 100%;
             background-color: 	#2b374b;
@@ -182,21 +184,20 @@ div.in_end{
 /*!4 TEXT */
 
 h1.tx_home{
-    float: left;
+   
     color: white;
     font-family: 'Prompt', sans-serif;
-    font-size: 180%;
-    margin-top: 0.4em;
-    margin-left: 0.7em;
+    font-size: 200%;
+    margin-top: 0.8em;
+  
 
 }
 h3.tx_home_nav{
     color: rgb(230, 230, 230);
     margin-top: 0.6em;
-    font-size: 110%;
+    font-size: 100%;
     
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+       font-family: 'Prompt', sans-serif;
 
 }
 .tx_info{
@@ -214,7 +215,7 @@ h3.tx_home_nav{
     input.inp_srch{
         width: 18em;
         height: 2.4em;
-        margin-top: 0.8em;
+        margin-top: 1.4em;
         transition: width 1s;
         -webkit-transition: width 1s;
         -moz-transition: width 1s;
@@ -229,7 +230,7 @@ h3.tx_home_nav{
 
     button.but_dosrch{
         width: 5em;
-        margin: 0.6em 0em 0em 0.5em;
+        margin: 1.2em 0em 0em 0.5em;
         /*TOP,RIGHT,BOTTOM,LEFT*/height: 3em;
         background-color: rgb(255, 125, 26);
         transition: background-color 500ms, width 500ms;
