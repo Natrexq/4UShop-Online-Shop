@@ -1,0 +1,322 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&family=Nanum+Gothic&family=Prompt:ital,wght@0,400;1,200&family=Source+Sans+Pro:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*FONTS
+
+font-family: 'Bebas Neue', cursive;
+font-family: 'Lora', serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+
+body{
+    width: 100%;
+    height: 150em;
+    float: left;
+    margin: 0;
+    background-color: rgb(234, 234, 234);
+}
+
+/* FAQ*/
+/*!1 DIVS*/
+div.in_home{
+    float: left;
+    color: white;
+    background-color: 	#1e1f1f;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 6em;
+     
+
+}
+    .home_el{
+        width: 50em;
+        height: 100%;
+        background-color: #2D4263;
+        display: flex;
+        justify-content: left;
+    }
+        .el_lgs{
+            display: inline-flex;
+            justify-content: center;
+            width: 10em;
+            height: 100%;
+            background-color: 	#2b374b;
+            
+        }
+        div.el_fixnav{
+            display: block;
+
+
+        }
+                        .el_srch{
+                            display: flex;
+                            justify-content: center;
+                            width: 40em;
+                            height: 100%;
+                            background-color: #2D4263;
+                        }
+
+        .el_nav{
+            width: 40em;
+            display: flex;
+            justify-content: right;
+            height: 1.6em;
+            background-color: rgb(255, 255, 255);
+        }
+                .nav_butback{
+                    
+                    width: 18em;
+                    display: inline-flex;
+                    justify-content: space-around;
+                    background-color: none;
+                }
+
+            
+
+
+
+
+div.in_home_nav{
+    width: 100%;
+    position: sticky;
+    top: 0;                
+    height: 2.5em;
+ 
+    color: white;
+    background-color: 		#242526;
+    display: flex;
+    
+    justify-content: center;
+    
+}   
+        .hmnav_cart{
+            left: 0;
+            top: 0;
+            margin-left: 0.7em;
+            display: flex;
+            justify-content: left;
+            position:fixed;
+            width: 6em;
+            height:2.4em;
+            background-color: none;
+        }       
+
+    div.home_nav_buts{
+        width: 55%;
+    height: 100%;
+    background-color: none;
+    display: flex;
+    justify-content: space-around;
+    }       
+            
+
+
+div.in_sh{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 46em;
+    background-color: #f6f6f6;
+}               
+        div.sh_welcome{
+            margin-top: 6em;
+            background-color: #eaeaea;;
+            width: 66em;
+            height: 30em;
+            display: flex;
+            justify-content: center;
+
+        }
+    
+        .wel_sld{
+            margin-top: 2em;
+            width: 55em;
+            height: 26em;
+            background-color: rgb(255, 145, 0);
+        }
+            /*div.wel_imgL{
+               float: left;
+               background-size:cover;
+              
+               background-color: #eaeaea;
+               width: 100%;
+               height: 100%;
+               transition: filter 1s;
+             
+               -webkit-transition: filter 1s;
+               -moz-transition: filter 1s;
+               -ms-transition: filter 1s;
+               -o-transition: filter 1s;
+}
+            div.wel_imgL:hover{
+                filter: blur(3px);
+                -webkit-filter: blur(3px);
+} 
+        */
+div.in_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    background-color: aqua;
+    height: 12em;
+}
+div.in_item{
+    width: 100%;
+    float: left;
+    height: 60em;
+    background-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.in_end{
+    color: white;
+    width: 100%;
+    float: left;
+    height: 16em;
+    background-color: 	#111111;
+
+}
+
+
+/*!4 TEXT */
+
+h1.tx_home{
+   
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 200%;
+    margin-top: 0.8em;
+  
+
+}
+h3.tx_home_nav{
+    color: rgb(230, 230, 230);
+    margin-top: 0.6em;
+    font-size: 100%;
+    
+       font-family: 'Prompt', sans-serif;
+
+}
+.tx_info{
+    font-family: 'Prompt', sans-serif;
+    font-size: 320%;
+    margin-top: 1em;
+    
+    color: white;
+}
+
+
+/*!3 BUTTONS*/
+
+
+/*!5 INPUTS*/
+    input.inp_srch{
+        width: 18em;
+        height: 2.4em;
+        margin-top: 1.4em;
+        transition: width 1s;
+        -webkit-transition: width 1s;
+        -moz-transition: width 1s;
+        -ms-transition: width 1s;
+        -o-transition: width 1s;
+}   
+            .inp_srch:focus{
+                width: 22em;
+                outline: none;
+            }
+
+
+    button.but_dosrch{
+        width: 5em;
+        margin: 1.2em 0em 0em 0.5em;
+        /*TOP,RIGHT,BOTTOM,LEFT*/height: 3em;
+        background-color: rgb(255, 125, 26);
+        transition: background-color 500ms, width 500ms;
+        border: none;
+        color: white;
+        font-family: 'Prompt', sans-serif;
+        font-weight: bold;
+        -webkit-transition: background-color 500ms, width 500ms;
+        -moz-transition: background-color 500ms, width 500ms;
+        -ms-transition: background-color 500ms, width 500ms;
+        -o-transition: background-color 500ms, width 500ms;
+}
+            .but_dosrch:hover,.but_dosrch:active{
+                width: 5.5em;
+                background-color: rgb(255, 152, 26);
+
+            }
+
+button.nav_navbuts{
+ width: 4.5em;
+ height: 100%;
+ border: none;
+ background: none;
+ font-family: 'Roboto', sans-serif;
+ font-size: 80%;
+ transition: font-size 500ms;
+ -webkit-transition: font-size 500ms;
+ -moz-transition: font-size 500ms;
+ -ms-transition: font-size 500ms;
+ -o-transition: font-size 500ms;
+}
+    .nav_navbuts:hover{
+            
+            font-size: 90%;
+            
+    }
+    .nav_butback:active{
+            font-weight: bold;
+    }
+
+
+
+    
+/*!6 IMAGES*/
+
+/*!7 SPECIAL*/
+
+
+.hmnav_cart{
+    left: 0;
+    top: 0;
+    margin-left: 0.7em;
+    display: flex;
+    justify-content: left;
+    position:fixed;
+    width: 6em;
+    height:2.4em;
+    background-color: none;
+}       
+h1.cartcount{
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0.5em 0em 0em 0.3em;
+    font-size: 130%;
+}
+button.but_gocart{
+    height: 100%;
+    width: 3em;
+    border: none;
+    background: none;
+    background-image: url("cartpng.png");
+    background-size: cover;
+
+}
