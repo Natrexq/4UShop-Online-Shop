@@ -31,7 +31,7 @@
                     <div class="el_fixnav">
                       <div class="el_nav">
                       <div class="nav_author">
-                                <h2 class="author" onclick="window.open('https://github.com/Natrexq');">Created by Natrexq</h2>
+                                <h2 class="author" onclick="window.open('https://github.com/Natrexq');"></h2>
                             </div>
                             <div class="nav_butback">
                                 
@@ -103,7 +103,7 @@
 
         </div>
         <div class="infbar">
-            
+
         </div>
         <div class="in_item">
 
@@ -111,10 +111,24 @@
             
     </div>
         <div class="in_end">
-            <h1>End</h1>
+           
             <div class="in_dev">
                 <h5 class="tx_dev">
+                        jo
 
+                </h5>
+
+            </div>
+            <div class="in_ath">
+                <h5 class="tx_dev">
+                        jo
+
+                </h5>
+
+            </div>
+            <div class="in_cre">
+                <h5 class="tx_dev">
+                        jo
 
                 </h5>
 
