@@ -7,6 +7,7 @@
    // $way = $crtby_item + "/" + $crtby_id + "Cart" + "/" + "Finalize" ;
 
 
+   $quantity = "1";
 
 ?>
 
@@ -16,7 +17,7 @@
      <!---home index-->
     <head>
       
-        <title>Cart(0)-4UShop.com</title>
+        <title>Cart (<?php echo $quantity;?>)-4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="javascript/main.js" type="text/javascript"></script>
 
