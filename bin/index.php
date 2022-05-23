@@ -64,7 +64,7 @@
   
         <div class="home_nav_buts" >
         <div class="hmnav_cart">
-                    <button onclick="location.href = 'cart.html'" type="submit" class="but_gocart"></button>
+                    <button onclick="location.href = 'cart.php'" type="submit" class="but_gocart"></button>
                     <h1 class="cartcount">0</h1>
             </div>
 
