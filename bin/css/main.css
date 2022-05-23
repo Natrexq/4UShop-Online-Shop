@@ -247,6 +247,7 @@ h1.tx_home{
 
 }
 h3.tx_home_nav{
+    cursor: grab;
     color: rgb(230, 230, 230);
     margin-top: 0.6em;
     font-size: 100%;
