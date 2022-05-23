@@ -30,8 +30,12 @@
                 </div>
                     <div class="el_fixnav">
                       <div class="el_nav">
+                      <div class="nav_author">
+                                <h2 class="author">Author</h2>
+                            </div>
                             <div class="nav_butback">
-
+                                
+                           
                             <button type="submit" class="nav_navbuts">Status</button>
                                         <button type="submit" class="nav_navbuts">About</button>
                                         <button type="submit" class="nav_navbuts">Contect</button>
@@ -60,7 +64,7 @@
   
         <div class="home_nav_buts" >
         <div class="hmnav_cart">
-                    <button type="submit" class="but_gocart"></button>
+                    <button onclick="location.href = 'cart.html'" type="submit" class="but_gocart"></button>
                     <h1 class="cartcount">0</h1>
             </div>
 
