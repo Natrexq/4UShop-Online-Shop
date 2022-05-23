@@ -65,7 +65,7 @@
         <div class="home_nav_buts" >
         <div class="hmnav_cart">
                     <button onclick="location.href = 'cart.php'" type="submit" class="but_gocart"></button>
-                    <h1 class="cartcount">0</h1>
+                    <h1 class="cartcount"><?php ?></h1>
             </div>
 
              <h3 class="tx_home_nav">HOME</h3>
