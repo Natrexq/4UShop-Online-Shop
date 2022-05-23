@@ -61,9 +61,10 @@
         <div class="home_nav_buts" >
 
              <h3 class="tx_home_nav">HOME</h3>
-            <h3 class="tx_home_nav">BUY</h3>
-            <h3 class="tx_home_nav">ABOUT US</h3>
-            <h3 class="tx_home_nav">DATA AND PRIVACY</h3>
+            <h3 class="tx_home_nav">SHOPPING</h3>
+            <h3 class="tx_home_nav">JOIN US</h3>
+            <h3 class="tx_home_nav">CART</h3>
+            <h3 class="tx_home_nav">HELP</h3>
         
         </div>
             
