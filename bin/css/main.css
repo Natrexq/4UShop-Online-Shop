@@ -16,7 +16,7 @@ font-family: 'Roboto', sans-serif;
 
 body{
     width: 100%;
-    height: 110em;
+    height: 150em;
     float: left;
     margin: 0;
     background-color: rgb(234, 234, 234);
@@ -27,9 +27,10 @@ body{
 div.in_home{
     float: left;
     color: white;
-    background-color: 	#2b374b;
+    background-color: 	#1e1f1f;
+    
     width: 100%;
-    height: 3.5em;
+    height: 4.5em;
      
 
 }
@@ -40,7 +41,7 @@ div.in_home_nav{
     height: 2.5em;
  
     color: white;
-    background-color: 	#242526;
+    background-color: 		#242526;
     display: flex;
     
     justify-content: center;
@@ -55,21 +56,33 @@ div.in_home_nav{
     }
 div.in_sh{
     width: 100%;
+    display: flex;
+    justify-content: center;
     float: left;
-    height: 88em;
+    height: 46em;
     background-color: #f6f6f6;
 }               
         div.sh_welcome{
-            background-color: blanchedalmond;
-            width: 100%;
-            height: 46em;
+            margin-top: 6em;
+            background-color: #eaeaea;;
+            width: 66em;
+            height: 30em;
+            display: flex;
+            justify-content: center;
 
         }
-            div.wel_imgL{
+    
+        .wel_sld{
+            margin-top: 2em;
+            width: 55em;
+            height: 26em;
+            background-color: rgb(255, 145, 0);
+        }
+            /*div.wel_imgL{
                float: left;
                background-size:cover;
               
-               background-image: url("hmrig.jpg");
+               background-color: #eaeaea;
                width: 100%;
                height: 100%;
                transition: filter 1s;
@@ -83,9 +96,21 @@ div.in_sh{
                 filter: blur(3px);
                 -webkit-filter: blur(3px);
 } 
-        
-
-
+        */
+div.in_info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    background-color: aqua;
+    height: 12em;
+}
+div.in_item{
+    width: 100%;
+    float: left;
+    height: 60em;
+    background-color: yellow;
+}
 
 
 
@@ -110,9 +135,10 @@ div.in_end{
 /*!4 TEXT */
 
 h1.tx_home{
+    float: left;
     color: white;
     font-family: 'Prompt', sans-serif;
-    font-size: 160%;
+    font-size: 180%;
     margin-top: 0.4em;
     margin-left: 0.7em;
 
@@ -126,7 +152,13 @@ h3.tx_home_nav{
     font-weight: bold;
 
 }
-
+.tx_info{
+    font-family: 'Prompt', sans-serif;
+    font-size: 320%;
+    margin-top: 1em;
+    
+    color: white;
+}
 
 /*!3 BUTTONS*/
 
