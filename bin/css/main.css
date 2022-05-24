@@ -338,10 +338,10 @@ font-family: 'Roboto', sans-serif;
         color: white;
         font-family: 'Prompt', sans-serif;
         font-weight: bold;
-        -webkit-transition: background-color 500ms, width 500ms;
-        -moz-transition: background-color 500ms, width 500ms;
-        -ms-transition: background-color 500ms, width 500ms;
-        -o-transition: background-color 500ms, width 500ms;
+        -webkit-transition:;
+        -moz-transition:;
+        -ms-transition:;
+        -o-transition:;
 }
             .but_dosrch:hover,.but_dosrch:active{
                 width: 5.5em;
