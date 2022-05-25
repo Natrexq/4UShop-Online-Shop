@@ -2,6 +2,8 @@
 
 <h2>About project</h2>
 <h4>Idk what i can write about itd :P</h4>
+<h2>Pictures</h2>
+<img url('https://github.com/Natrexq/4UShop-Template-of-shop-JS-PHP-/blob/f446baf9679db951bf62362c3d02e70bb61bc1db/bin/css/4ushoptop.png')><img/>
 
 
 <h2>Languages that i used:<h3><b>PHP,JS,REACT</b></h3><h2/>
