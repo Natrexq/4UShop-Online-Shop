@@ -19,7 +19,21 @@
   <h5><i>- I added one new function</i></h5>
   <br/>
   <h4><b>23/05/2022</b></h4>
-<h5><i>???</i></h5>
+<h5><i>- Change style of home site</i></h5>
+  <h5><i> - writed new script in js</i></h5>
+  <h5><i>- added functionaly gui</i></h5>
+  <h5><i>- changed a lot of small issues</i></h5>
+  <h5><i>???</i></h5>
+  <h5><i>???</i></h5>
+  <br/>
+   <h4><b>24/05/2022</b></h4>
+<h5><i>- Change style of home site</i></h5>
+  <h5><i>- added crash website (When server cant display website )Error 404 comunicate</i></h5>
+  <h5><i>- nothing</i></h5>
+  <br/>
+   <h4><b>25/05/2022</b></h4>
+<h5><i>- Change style of home site</i></h5>
+  <h5><i>- actually nothing</i></h5>
   <br/>
   <h4><b>More in Update_log.txt</b></h4>
 
