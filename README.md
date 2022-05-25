@@ -4,7 +4,8 @@
 <h4>Idk what i can write about itd :P</h4>
 <h2>Pictures</h2>
 <br/>
-<img src="bin/css/4ushoptop.png" width="400px">
+<img src="bin/css/4ushoptop.png" >
+<img src="bin/css/4ushopbot.png" >
 
 <h2>Languages that i used:<h3><b>PHP,JS,REACT</b></h3><h2/>
 
