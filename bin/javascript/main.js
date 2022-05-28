@@ -1,19 +1,38 @@
- var PhpConnect = false;
+ var PhpConnect = "faalse";
+ var ercode = 404;
 
 function FuConnect(){
 
-        alert(PhpConnect);
+       
         
 
-       var controlelement,connected,disconnected;
+    var controlelement,connected,disconnected;
 
-       connected = "ch_control_con";
-       disconnected = "ch_control_dis";
-        
+    connected = "ch_control_con";
+    disconnected = "ch_control_dis";
+    controlelement = document.getElementById('con_el');
+    
+     
+    if(PhpConnect == true){
+     controlelement.className = connected;
+     controlelement.innerHTML = " Connected";
 
-       controlelement = document.getElementById('con_el');
-       controlelement.className = disconnected;
-       alert(controlelement.className);
+ }
+ if(PhpConnect == false){
+     controlelement.className = disconnected;
+     controlelement.innerHTML = " Disconnected";
+     console.log("0x000: Something went wrong");
+
+ }
+ else{
+     
+     console.log("0x003: Server can't check database connection status!");
+     
+ }
+ 
+
+  
+    
 
 
 
