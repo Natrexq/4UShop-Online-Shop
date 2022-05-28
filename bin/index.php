@@ -85,7 +85,7 @@
             <div class="sh_welcome">
                 <div class="wel_sld">
 
-                <h1 class="tx_wel_soon">SOON</h1>
+                <h1 class="tx_wel_soon">Welcome</h1>
 
                 </div>
                
