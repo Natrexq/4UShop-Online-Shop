@@ -81,10 +81,11 @@
             
 
         </div>
+        <script></script>
         <div class="in_sh">
           
-            <div class="shbut"><button class="lfshbut">&#10092;</button></div>
-            <div class="shbut"><button class="rgshbut">&#10093;</button></div>
+            <div class="shbut"><button class="lfshbut" onclick="Slider()">&#10092;</button></div>
+            <div class="shbut"><button class="rgshbut" onclick="Slider()">&#10093;</button></div>
 
 
 
