@@ -32,7 +32,7 @@
                         
                       <div class="el_nav">
                       <div class="nav_contback">
-                                <h2 id="con_el" class="ch_control">Connected</h2>
+                                <h2 id="con_el" class="ch_control"></h2>
                                 </div>
                             <div class="nav_butback">
                                 
