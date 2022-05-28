@@ -135,11 +135,13 @@ div.in_sh{
     justify-content: center;
     float: left;
     height: 46em;
-    background-color: #f6f6f6;
+    background-image: url('hmrig.jpg');
+    background-size: cover;
 }               
         div.sh_welcome{
             margin-top: 6em;
-            background-color: #eaeaea;;
+            border: 1px solid black;
+            backdrop-filter: blur(12px);
             width: 66em;
             height: 30em;
             display: flex;
@@ -151,10 +153,10 @@ div.in_sh{
             margin-top: 2em;
             width: 55em;
             height: 26em;
-            background-size: cover;
+            
             display: flex;
             justify-content: center;
-            background-image: url('hmrig.jpg');
+            
             
 }
             /*div.wel_imgL{
