@@ -29,12 +29,14 @@
 
                 </div>
                     <div class="el_fixnav">
+                        
                       <div class="el_nav">
-                      <div class="nav_author">
-                                <h2 class="author" onclick="window.open('https://github.com/Natrexq');"></h2>
-                            </div>
+                      <div class="nav_contback">
+                                <h2 class="ch_control">Connected</h2>
+                                </div>
                             <div class="nav_butback">
                                 
+                              
                            
                             <button type="submit" class="nav_navbuts">Status</button>
                                         <button type="submit" class="nav_navbuts">About</button>
