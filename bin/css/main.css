@@ -136,33 +136,27 @@ div.in_sh{
     justify-content: center;
     float: left;
     height: 46em;
-    background-image: url('hmrig.jpg');
+    filter: brightness(33%);
+    background-image: url('hmimg2.jpg');
     background-size: cover;
     display: flex;
-    
     justify-content: space-between;
+    -webkit-filter: brightness(33%);
 }      
-div.in_sh1{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    float: left;
-    height: 46em;
-    background-image: url('hmnext1.jpg');
-    background-size: cover;
-    display: flex;
-    
-    justify-content: space-between;
-}            
+          
         .shbut{
             background: none;
             height: 10em;
             width: 8em;
             display: block;
-           
+            z-index: 10;
+            filter: brightness(100%);
             margin-top: 18%;
-        }       
+            -webkit-filter: brightness(100%);
+}       
             button.lfshbut{
+                z-index: 10;
+             
                 background: none;
                 border: none;
                 text-align: center;
@@ -177,6 +171,7 @@ div.in_sh1{
                 -moz-transition: margin 0.5s, opacity 1s;
                 -ms-transition: margin 0.5s, opacity 1s;
                 -o-transition: margin 0.5s, opacity 1s;
+                -webkit-filter: brightness(100%);
 }   
             button.lfshbut:hover{opacity: 100%;}
             button.lfshbut:active{margin-right: 0.4em;}
@@ -293,6 +288,7 @@ h3.tx_home_nav{
     font-size: 320%;
     margin-top: 1em;
     
+    z-index: 10;
     color: white;
 }
 h1.cartcount{
