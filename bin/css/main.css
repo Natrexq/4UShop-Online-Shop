@@ -71,12 +71,7 @@ div.in_home{
             background-color: rgb(255, 255, 255);
         }       
 
-                .nav_author{
-                    background-color: none;
-                    width: 22em;
-                    display: flex;
-                    justify-content: left;
-                }
+            
 
                 .nav_butback{
                     
@@ -85,7 +80,15 @@ div.in_home{
                     justify-content: space-around;
                     background-color: none;
                 }
+                    div.nav_contback{
+                        width: 30em;
+                        display: flex;
+                        justify-content: left;
+                        height: 100%;
+                        background: none;
 
+
+                    }
             
 
 
@@ -307,6 +310,32 @@ font-family: 'Roboto', sans-serif;
     font-weight: normal;
     text-align: center;
 }
+h2.ch_control{
+    margin-left: 0.7em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 80%;
+    color: #000000;
+    margin-top: 0.5em;
+    font-weight: normal;
+
+}
+        h2.ch_control_con{
+            margin-left: 0.7em;
+            font-family: 'Roboto', sans-serif;
+            font-size: 80%;
+            color: #01c031;
+            margin-top: 0.5em;
+            font-weight: bold;
+
+        }
+        h2.ch_control_dis{
+            margin-left: 0.7em;
+            font-family: 'Roboto', sans-serif;
+            font-size: 80%;
+            color: #c00101;
+            margin-top: 0.5em;
+            font-weight: bold;
+        }
 
 /*!3 BUTTONS*/
 
