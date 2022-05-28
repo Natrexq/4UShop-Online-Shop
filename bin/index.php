@@ -16,7 +16,7 @@
 
     </head>
  
-    <body onload="Main()">
+    <body onload="Main()&FuConnect()">
     <link rel="stylesheet" href="css/main.css">
 
         <div class="in_home">
@@ -32,7 +32,7 @@
                         
                       <div class="el_nav">
                       <div class="nav_contback">
-                                <h2 class="ch_control">Connected</h2>
+                                <h2 id="con_el" class="ch_control">Connected</h2>
                                 </div>
                             <div class="nav_butback">
                                 
