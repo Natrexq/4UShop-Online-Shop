@@ -1,3 +1,25 @@
+ var PhpConnect = false;
+
+function FuConnect(){
+
+        alert(PhpConnect);
+        
+
+       var controlelement,connected,disconnected;
+
+       connected = "ch_control_con";
+       disconnected = "ch_control_dis";
+        
+
+       controlelement = document.getElementById('con_el');
+       controlelement.className = disconnected;
+       alert(controlelement.className);
+
+
+
+}
+
+
 function Main(){
 
     var click;
