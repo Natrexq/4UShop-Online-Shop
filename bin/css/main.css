@@ -158,13 +158,15 @@ div.in_sh{
                 float: right;
                 height: 100%;
                 width: 0.7em;
-                transition: margin 0.5s;
-                -webkit-transition: margin 0.5s;
-                -moz-transition: margin 0.5s;
-                -ms-transition: margin 0.5s;
-                -o-transition: margin 0.5s;
+                opacity: 60%;
+                transition: margin 0.5s, opacity 1s;
+                -webkit-transition: margin 0.5s, opacity 1s;
+                -moz-transition: margin 0.5s, opacity 1s;
+                -ms-transition: margin 0.5s, opacity 1s;
+                -o-transition: margin 0.5s, opacity 1s;
 }   
-            button.lfshbut:active{margin-right: 0.5em;}
+            button.lfshbut:hover{opacity: 100%;}
+            button.lfshbut:active{margin-right: 0.4em;}
             button.rgshbut{
                 background: none;
                 border: none;
@@ -174,12 +176,13 @@ div.in_sh{
                 float: left;
                 height: 100%;
                 width: 0.7em;
-                transition: margin 0.5s;
-                -webkit-transition: margin 0.5s;
-                -moz-transition: margin 0.5s;
-                -ms-transition: margin 0.5s;
-                -o-transition: margin 0.5s;
-}           button.rgshbut:hover{font-size: 760%;}
+                opacity: 60%;
+                transition: margin 0.5s, opacity 1s;
+                -webkit-transition: margin 0.5s, opacity 1s;
+                -moz-transition: margin 0.5s, opacity 1s;
+                -ms-transition: margin 0.5s, opacity 1s;
+                -o-transition: margin 0.5s, opacity 1s;
+}           button.rgshbut:hover{ opacity: 100%;}
             button.rgshbut:active{margin-left: 0.4em;}
 
 
