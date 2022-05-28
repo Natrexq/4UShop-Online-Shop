@@ -1,4 +1,4 @@
- var PhpConnect = "hide"/*false,true*/;
+ var PhpConnect = true/*"hide"/*false,true*/;
  var ercode = 404;
 
 function FuConnect(){
