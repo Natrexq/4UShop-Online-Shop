@@ -82,19 +82,9 @@
 
         </div>
         <div class="in_sh">
-            <div class="sh_welcome">
-                <div class="wel_sld">
-
-                <h1 class="tx_wel_soon">Welcome</h1>
-
-                </div>
-               
-                  
-
-
-
-             </div>
-         
+          
+            <div class="shbut"><button class="lfshbut">&#10092;</button></div>
+            <div class="shbut"><button class="rgshbut">&#10093;</button></div>
 
 
 
