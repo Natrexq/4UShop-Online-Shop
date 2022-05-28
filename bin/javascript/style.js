@@ -2,13 +2,23 @@
 
 function RgSlide(){
     
-    const image = document.getElementById('hmimg' +1);
-    alert('jd' + 1);
+    const back = document.getElementById('shback');
+    back.style.backgroundImage = "url('css/hmimg" +3 + ".jpg')"; 
+    alert(back.style.backgroundImage);
 
        
 }
 function LfSlide(){
-    
+
+    var one = 12;
+    fina = one + one;
+
+    alert(one);
+
+
+    const back = document.getElementById('shback');
+    back.style.backgroundImage = "url('css/hmimg" +1 + ".jpg')"; 
+    alert(back.style.backgroundImage);
     
        
 }
