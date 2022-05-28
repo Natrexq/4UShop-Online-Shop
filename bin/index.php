@@ -81,11 +81,11 @@
             
 
         </div>
-        <script></script>
-        <div class="in_sh">
+        <script src="javascript/style.js" type="text/javascript"></script>
+        <div id="shback" class="in_sh">
           
-            <div class="shbut"><button class="lfshbut" onclick="Slider()">&#10092;</button></div>
-            <div class="shbut"><button class="rgshbut" onclick="Slider()">&#10093;</button></div>
+            <div class="shbut"><button class="lfshbut" onclick="LfSlide()">&#10092;</button></div>
+            <div class="shbut"><button class="rgshbut" onclick="RgSlide()">&#10093;</button></div>
 
 
 
