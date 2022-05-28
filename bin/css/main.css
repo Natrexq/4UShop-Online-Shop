@@ -97,6 +97,7 @@ div.in_home{
 div.in_home_nav{
     width: 100%;
     position: sticky;
+    z-index: 10;
     top: 0;                
     height: 2.5em;
  
@@ -140,7 +141,19 @@ div.in_sh{
     display: flex;
     
     justify-content: space-between;
-}               
+}      
+div.in_sh1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    float: left;
+    height: 46em;
+    background-image: url('hmnext1.jpg');
+    background-size: cover;
+    display: flex;
+    
+    justify-content: space-between;
+}            
         .shbut{
             background: none;
             height: 10em;
@@ -427,7 +440,7 @@ button.nav_navbuts{
     margin-left: 1.5em;
     display: flex;
     justify-content: left;
-    position:fixed;
+    position:absolute;
     width: 6em;
     height:2.4em;
     background-color: none;
