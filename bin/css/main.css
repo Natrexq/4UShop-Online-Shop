@@ -131,70 +131,37 @@ div.in_home_nav{
 
 
 div.in_sh{
+
+    position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     float: left;
     height: 46em;
-    filter: brightness(33%);
-    background-image: url('hmimg2.jpg');
-    background-size: cover;
-    display: flex;
-    justify-content: space-between;
-    -webkit-filter: brightness(33%);
+    
+    
+   
+    
 }      
+    div.sh_back{
+    
+        position:absolute;
+        width: 100%;
+        height: 100%;
+        filter: brightness(33%);
+        background-image: url('hmimg2.jpg');
+        background-size: cover;
+        -webkit-filter: brightness(33%);
+    }   
+    div.sh_area{
+        margin-top: 10em;
+        position: relative;
+        width: 50em;
+        height: 25em;
+        background-color: wheat;
+    }
           
-        .shbut{
-            background: none;
-            height: 10em;
-            width: 8em;
-            display: block;
-            z-index: 10;
-            filter: brightness(100%);
-            margin-top: 18%;
-            -webkit-filter: brightness(100%);
-}       
-            button.lfshbut{
-                z-index: 10;
-             
-                background: none;
-                border: none;
-                text-align: center;
-                color: #FFFFFF;
-                font-size: 720%;
-                float: right;
-                height: 100%;
-                width: 0.7em;
-                opacity: 60%;
-                transition: margin 0.5s, opacity 1s;
-                -webkit-transition: margin 0.5s, opacity 1s;
-                -moz-transition: margin 0.5s, opacity 1s;
-                -ms-transition: margin 0.5s, opacity 1s;
-                -o-transition: margin 0.5s, opacity 1s;
-                -webkit-filter: brightness(100%);
-}   
-            button.lfshbut:hover{opacity: 100%;}
-            button.lfshbut:active{margin-right: 0.4em;}
-            button.rgshbut{
-                background: none;
-                border: none;
-                text-align: center;
-                color: #FFFFFF;
-                font-size: 720%;
-                float: left;
-                height: 100%;
-                width: 0.7em;
-                opacity: 60%;
-                transition: margin 0.5s, opacity 1s;
-                -webkit-transition: margin 0.5s, opacity 1s;
-                -moz-transition: margin 0.5s, opacity 1s;
-                -ms-transition: margin 0.5s, opacity 1s;
-                -o-transition: margin 0.5s, opacity 1s;
-}           button.rgshbut:hover{ opacity: 100%;}
-            button.rgshbut:active{margin-left: 0.4em;}
-
-
-
+   
 
     
 div.in_info{
@@ -260,7 +227,13 @@ div.in_end{
     }
 
 /*!4 TEXT */
+h1.tx_insh{
+    
+    text-align: center;
+    color: white;
 
+
+}
 h1.tx_home{
    
     color: white;
