@@ -261,19 +261,27 @@ div.in_end{
 
 }
     .in_dev{
+        border-radius:20px ;
+        border: 4px solid  rgb(0, 179, 179);
+        border-style: dashed;
         margin-top: 3em;
         height: 10em;
         width: 20em;
         background: none;
     }
     .in_ath{
+        border-radius:20px ;
+        border: 4px solid  rgb(0, 179, 33);
+        border-style: dashed;
         margin-top: 3em;
         height: 10em;
         width: 20em;
         background: none;
     }
     .in_cre{
-        
+        border-radius:20px ;
+        border: 4px solid  rgb(179, 155, 0);
+        border-style: dashed;
         
         margin-top: 3em;
         height: 10em;
@@ -358,16 +366,17 @@ font-family: 'Roboto', sans-serif;
    
 }
 .end_intr{
-    
     color: #FFFFFF;
     font-family: 'Prompt', sans-serif;
     font-size: 180%;
-    border-bottom: 4px solid  #2b374b;
-    border-bottom-style: dashed;
-
+    width: 100%;
 
     text-align: center;
     margin: 0.6em 0em 0em 0em;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
 }
 .end_cr{
     color: #FFFFFF;
@@ -377,6 +386,10 @@ font-family: 'Roboto', sans-serif;
     font-weight: normal;
     text-align: center;
 }
+    #gtcr{
+        font-weight: bold;
+        cursor: grab;
+    }
 h2.ch_control{
     margin-left: 0.7em;
     font-family: 'Roboto', sans-serif;
@@ -409,7 +422,7 @@ h2.ch_control{
 
 /*!5 INPUTS*/
     input.inp_srch{
-        width: 18em;
+        width: 20em;
         height: 2.4em;
         margin-top: 1.4em;
         transition: width 1s;
@@ -419,7 +432,7 @@ h2.ch_control{
         -o-transition: width 1s;
 }   
             .inp_srch:focus{
-                width: 22em;
+                width: 24em;
                 outline: none;
             }
 
@@ -434,10 +447,7 @@ h2.ch_control{
         color: white;
         font-family: 'Prompt', sans-serif;
         font-weight: bold;
-        -webkit-transition:;
-        -moz-transition:;
-        -ms-transition:;
-        -o-transition:;
+       
 }
             .but_dosrch:hover,.but_dosrch:active{
                 width: 5.5em;
@@ -484,7 +494,7 @@ button.dwbut{
     -ms-transition: width 1s;
     -o-transition: width 1s;
 }
-button.dwbut:hover{ width: 16em;}
+
     .lkaro{
     font-size: 125%;
     font-family: 'Roboto', sans-serif;
@@ -501,22 +511,25 @@ button.dwbut:hover{ width: 16em;}
 /*!6 IMAGES*/
 
 /*!7 SPECIAL*/
-
+#lk{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
 .hmnav_cart{
     left: 0;
-    top: 0;
-    margin-left: 1.5em;
+    margin-top: 0.4em;
+    margin-left: 2em;
     display: flex;
     justify-content: left;
     position:absolute;
-    width: 6em;
-    height:2.4em;
+    width: 3em;
+    height:2em;
     background-color: none;
 }       
 button.but_gocart{
-    height:100%;
-    width: 3em;
+    height:2em;
+    width: 2em;
     border: none;
     background: none;
     background-image: url("cartpng.png");
@@ -525,16 +538,21 @@ button.but_gocart{
 }
 /*!8 Buy system*/
     .sl_pro{
-        
+        border-radius: 1em;
         width: 25%;
         height: 95%;
         box-shadow: 0px 2px 2px rgb(134, 134, 134);
         background-color: rgb(255, 255, 255);
-       
-    }
+        -webkit-border-radius: 1em;
+        -moz-border-radius: 1em;
+        -ms-border-radius: 1em;
+        -o-border-radius: 1em;
+}
     
 
     div.pr_img{
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
         cursor: grab;
         float: left;
         width: 100%;
@@ -543,7 +561,8 @@ button.but_gocart{
         filter: brightness(70%);
         opacity: 50%;
         -webkit-filter: brightness(70%);
-}
+    }
+
                 /*! IMAGES SYS*/
                 #impr1{
                     
