@@ -82,13 +82,17 @@
 
         </div>
         <script src="javascript/style.js" type="text/javascript"></script>
-        <div id="shback" class="in_sh">
-          
-            <div class="shbut"><button class="lfshbut" onclick="LfSlide()">&#10092;</button></div>
-            <h2 class="tx_info">Siema</h2>
-            <div class="shbut"><button class="rgshbut" onclick="RgSlide()">&#10093;</button></div>
+        <div id="shback" class="in_sh" >
+                <div class="sh_back">
 
-                                        
+
+                </div>
+                <div class="sh_area">
+
+                
+                </div>
+
+            
 
         </div>
         <div class="in_info">
