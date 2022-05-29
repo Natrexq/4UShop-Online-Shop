@@ -84,7 +84,7 @@
         <script src="javascript/style.js" type="text/javascript"></script>
         <div id="shback" class="in_sh" >
                 <div class="sh_back">
-
+                    
 
                 </div>
                 <div class="sh_area">
@@ -93,10 +93,10 @@
                                 
                         </div>
                         <div class="area_txt">
-                        <h2 class="tx_inshsm">ajaad</h2>
+                        <h2 class="tx_inshsm">The best computer store</h2>
                         </div>
                         <div class="area_butts">
-                            <button type="submit" class="dwbut" id="godw">Go Down</button>
+                            <button type="submit" class="dwbut" id="godw"><h2 class="lkaro">Look around</h2></button>
                         </div>
 
                 </div>
@@ -109,14 +109,12 @@
                 <h1 class="tx_info">PRODUCTS</h1>
 
         </div>
-        <div class="infbar">
-
-        </div>
+      
         <div class="in_item">
 
 
             
-    </div>
+        </div>
         <div class="in_end">
            
             <div class="in_dev">
