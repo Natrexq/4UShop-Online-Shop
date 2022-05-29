@@ -1,9 +1,6 @@
 // In this file you find buy product system
-
-const er0x000 = "0x000: Something went wrong"; 
-const er0x004 = "0x004: Unkown ";
-
-
+var er0x000 = "0x000: Something went wrong"; 
+var er0x004 = "0x004: Unkown "; 
 
 function Buy(ida){
 
@@ -16,18 +13,23 @@ function Buy(ida){
 
             if(prod == prod1){
                 //PHP SENDS INFO
-                window.open('/shopping.php');
-            }
-            if(prod == prod1){
-                //PHP SENDS INFO
-                window.open('/shopping.php');
-            }
-            if(prod == prod1){
-                //PHP SENDS INFO
-                window.open('/shopping.php');
+                window.open('shopping.php');
             }
             else{
-                console.log('');
+                if(prod == prod2){
+                     //PHP SENDS INFO
+                    window.open('shopping.php');
+                }
+                else{
+                    if(prod == prod3){
+                         //PHP SENDS INFO
+                        window.open('shopping.php');
+
+                    }
+                    else{
+                        console.log(er0x000);
+                    }
+                }
             }
 
 
