@@ -13,7 +13,7 @@
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="javascript/main.js" type="text/javascript"></script>
-
+        <script src="javascript/buy.js" type="text/javascript"></script>
     </head>
  
     <body onload="Main()&FuConnect()">
@@ -114,9 +114,9 @@
         <script src="javascript/buy.js" type="text/javascript"></script>
                     <div class="in_sellback">
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
-                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2">Unkown</h2></div>
-                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3">-</h2></div>
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1" onclick="Buy(this.id)">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
+                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2" onclick="Buy(this.id)">Unkown</h2></div>
+                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" onclick="Buy(this.id)">-</h2></div>
                         </div>
                         
                         <div class="sl_sell">
