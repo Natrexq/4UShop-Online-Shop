@@ -40,7 +40,7 @@
                            
                             <button type="submit" class="nav_navbuts">Status</button>
                                         <button type="submit" class="nav_navbuts">About</button>
-                                        <button type="submit" class="nav_navbuts">Contect</button>
+                                        <button type="submit" class="nav_navbuts">Contact</button>
                                         <button type="submit" class="nav_navbuts">Settings</button>
 
                             </div>
