@@ -223,7 +223,7 @@ div.in_item{
             margin-top: 5em;
             width: 80em;
             height: 50em;
-            background-color: 	#f3f3f3;
+            background: none;
             border-radius: 1em;
             -webkit-border-radius: 1em;
             -moz-border-radius: 1em;
@@ -527,12 +527,15 @@ button.but_gocart{
     .sl_pro{
         
         width: 25%;
-        height: 100%;
+        height: 95%;
+        box-shadow: 0px 2px 2px rgb(134, 134, 134);
         background-color: rgb(255, 255, 255);
-        border: 1px solid black;
+       
     }
+    
 
     div.pr_img{
+        cursor: grab;
         float: left;
         width: 100%;
         height: 70%;
@@ -541,8 +544,21 @@ button.but_gocart{
         opacity: 50%;
         -webkit-filter: brightness(70%);
 }
-    .pr_desc{
+                /*! IMAGES SYS*/
+                #impr1{
+                    
+                    opacity: 90%;
+                    background-image: url('pc1.jpg');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+}
 
+
+
+
+    .pr_desc{
+        cursor: grab;
         font-size: 110%;
         text-align: center;
         font-family: 'Lora', serif;
@@ -550,7 +566,12 @@ button.but_gocart{
         float: left;
         height: 2.5em;
         width: 100%;
-        
-    }
-        
+        transition: font-size 1s;
+        -webkit-transition: font-size 1s;
+        -moz-transition: font-size 1s;
+        -ms-transition: font-size 1s;
+        -o-transition: font-size 1s;
+}
+    .pr_desc:hover{font-size: 115%;}
+
 
