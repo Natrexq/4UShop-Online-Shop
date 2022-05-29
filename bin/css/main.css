@@ -174,13 +174,29 @@ div.in_sh{
         margin-top: 10em;
         position: relative;
         width: 50em;
-        height: 25em;
-        background-color: wheat;
+        height: 20em;
+        background: none;
     }
                 div.area_intxt{
                     width: 100%;
                     height: 10em;
-                    background-color: #FFFFFF;
+                    display: flex;
+                    justify-content: center;
+                    background: none;
+                }
+                div.area_txt{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 5em;
+                    background: none;
+                }
+                div.area_butts{
+                    width: 100%;
+                    height: 5em;
+                    background: none;
+                    display: flex;
+                    justify-content: center;
                 }
           
    
@@ -191,15 +207,10 @@ div.in_info{
     display: flex;
     justify-content: center;
     float: left;
-    background-color: #2D4263;;
-    height: 12em;
+    background-color: rgb(10, 10, 10);
+    height: 8em;
 }
-div.infbar{
-    width: 100%;
-    float: left;
-    background-color: #1d2c45;;
-    height: 3em;
-}
+
 div.in_item{
     width: 100%;
     float: left;
@@ -223,8 +234,8 @@ div.in_end{
     display: flex;
     justify-content: space-around;
     float: left;
-    height: 16em;
-    background-color: 	#111111;
+    height: 23em;
+    background-color: 	#181818;
 
 }
     .in_dev{
@@ -250,21 +261,25 @@ div.in_end{
 
 /*!4 TEXT */
 .tx_insh{
-    
-    
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Prompt', sans-serif;
     font-weight: bold;
     padding-top: 0.5em;
     margin-top: 0em;
     font-size: 420%;
-
+    cursor: grab;
+    transition:font-size 1s;
+    -webkit-transition:font-size 1s;
+    -moz-transition:font-size 1s;
+    -ms-transition:font-size 1s;
+    -o-transition:font-size 1s;
 }
+.tx_insh:hover{font-size: 440%;}
 .tx_inshsm{
     color: #FFFFFF;
     opacity: 90%;
-    font-size: 200%;
-    padding-top: 0;
+    font-size: 150%;
+    margin-top: 0em;
     font-family: 'Prompt', sans-serif;
     font-weight: normal;
 
@@ -293,11 +308,11 @@ h3.tx_home_nav{
     .tx_home_nav:hover{font-size: 120%; margin-top: 0.4em;}
 .tx_info{
     font-family: 'Prompt', sans-serif;
-    font-size: 320%;
+    font-size: 220%;
     margin-top: 1em;
-    
-    z-index: 10;
-    color: white;
+    opacity: 90%;
+    z-index: 0;
+    color: rgb(255, 255, 255);
 }
 h1.cartcount{
     font-family: 'Nanum Gothic', sans-serif;
@@ -430,8 +445,36 @@ button.nav_navbuts{
             font-weight: bold;
     }
 
-
-
+button.dwbut{
+    width: 15em;
+    height: 80%;
+    color: white;
+    background: none;
+    border-radius: 30px;
+    border: 4px solid rgb(0, 169, 169);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+    -moz-transition: width 1s;
+    -ms-transition: width 1s;
+    -o-transition: width 1s;
+}
+button.dwbut:hover{ width: 16em;}
+    .lkaro{
+    font-size: 125%;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: normal;
+    transition: font-size 500ms;
+    -webkit-transition: font-size 500ms;
+    -moz-transition: font-size 500ms;
+    -ms-transition: font-size 500ms;
+    -o-transition: font-size 500ms;
+}
+    .lkaro:hover{ font-size: 135%;}
     
 /*!6 IMAGES*/
 
