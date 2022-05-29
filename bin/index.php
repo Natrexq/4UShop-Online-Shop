@@ -1,6 +1,6 @@
 <?php
 
-
+$color = "aaa";
 
 
 ?>
@@ -12,7 +12,11 @@
       
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script type="text/javascript">var color = "<?= $color ?>";</script>
         <script src="javascript/main.js" type="text/javascript"></script>
+  
+
         <script src="javascript/buy.js" type="text/javascript"></script>
     </head>
  
@@ -120,7 +124,7 @@
                         </div>
                         
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><h2 class="pr_desc" id="desp4">-</h2></div>
+                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><h2 class="pr_desc" id="desp4" onclick="Buy(this.id)">-</h2></div>
                             <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><h2 class="pr_desc" id="desp5">-</h2></div>
                             <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><h2 class="pr_desc" id="desp6">-</h2></div>
                         </div>
