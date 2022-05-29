@@ -88,8 +88,17 @@
 
                 </div>
                 <div class="sh_area">
+                        <div class="area_intxt">
+                                <h1 class="tx_insh">4USHOP</h1>
+                                
+                        </div>
+                        <div class="area_txt">
+                        <h2 class="tx_inshsm">ajaad</h2>
+                        </div>
+                        <div class="area_butts">
+                            <button type="submit" class="dwbut" id="godw">Go Down</button>
+                        </div>
 
-                
                 </div>
 
             
