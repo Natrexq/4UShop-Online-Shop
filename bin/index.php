@@ -104,13 +104,13 @@
             
 
         </div>
-        <div class="in_info">
+        <div class="in_info" id="products">
 
                 <h1 class="tx_info">PRODUCTS</h1>
 
         </div>
       
-        <div class="in_item" id="products">
+        <div class="in_item">
         <script src="javascript/buy.js" type="text/javascript"></script>
                     <div class="in_sellback">
                         <div class="sl_sell">
