@@ -1,9 +1,9 @@
  var PhpConnect = true/*"hide"/*false,true*/;
  var ercode = 404;
 
-const er0x000 = "0x000: Something went wrong"; 
-const er0x003 = "0x003: Server can't check database connection status!"; 
-const er0x004 = "0x004: Unkown "; 
+var er0x000 = "0x000: Something went wrong"; 
+var er0x003 = "0x003: Server can't check database connection status!"; 
+var er0x004 = "0x004: Unkown "; 
 
 
 
@@ -48,6 +48,8 @@ function FuConnect(){
 
 
 function Main(){
+
+    alert(color);
 
     var click;
 
