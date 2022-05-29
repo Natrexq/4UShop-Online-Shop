@@ -81,7 +81,7 @@
             
 
         </div>
-        <script src="javascript/style.js" type="text/javascript"></script>
+       
         <div id="shback" class="in_sh" >
                 <div class="sh_back">
                     
@@ -111,8 +111,26 @@
         </div>
       
         <div class="in_item">
+        <script src="javascript/buy.js" type="text/javascript"></script>
+                    <div class="in_sellback">
+                        <div class="sl_sell">
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
+                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2">Unkown</h2></div>
+                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3">-</h2></div>
+                        </div>
+                        
+                        <div class="sl_sell">
+                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><h2 class="pr_desc" id="desp4">-</h2></div>
+                            <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><h2 class="pr_desc" id="desp5">-</h2></div>
+                            <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><h2 class="pr_desc" id="desp6">-</h2></div>
+                        </div>
+                        <div class="sl_sell">
+                            <div class="sl_pro" id="pr7"><div class="pr_img" id="impr7"></div><h2 class="pr_desc" id="desp7">-</h2></div>
+                            <div class="sl_pro" id="pr8"><div class="pr_img" id="impr8"></div><h2 class="pr_desc" id="desp8">-</h2></div>
+                            <div class="sl_pro" id="pr9"><div class="pr_img" id="impr9"></div><h2 class="pr_desc" id="desp9">-</h2></div>
+                        </div>
 
-
+                    </div>
             
         </div>
         <div class="in_end">
