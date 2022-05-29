@@ -96,7 +96,7 @@
                         <h2 class="tx_inshsm">The best computer store</h2>
                         </div>
                         <div class="area_butts">
-                            <button type="submit" class="dwbut" id="godw"><h2 class="lkaro">Look around</h2></button>
+                            <button type="submit" class="dwbut" id="godw"><h2 class="lkaro"><a id="lk"  href="#products">Look around</a></h2></button>
                         </div>
 
                 </div>
@@ -110,7 +110,7 @@
 
         </div>
       
-        <div class="in_item">
+        <div class="in_item" id="products">
         <script src="javascript/buy.js" type="text/javascript"></script>
                     <div class="in_sellback">
                         <div class="sl_sell">
@@ -137,9 +137,9 @@
            
             <div class="in_dev">
                 <h2 class="end_intr">CREDITS</h2>
-                <h4 class="end_cr">Project: Natrexq</h4>
-                <h4 class="end_cr">Code: Natrexq</h4>
-                <h4 class="end_cr">Pic: Free to use images</h4>
+                <h4 class="end_cr">Creator: Natrexq</h4>
+                <h4 class="end_cr">Coder: Natrexq</h4>
+                <h4 class="end_cr">Picture: My own or free img</h4>
                
 
 
@@ -147,8 +147,8 @@
             <div class="in_ath">
                 <h5 class="tx_dev">
                 <h2 class="end_intr">PROJECT</h2>
-                <h4 class="end_cr" onclick="window.open('https://github.com/Natrexq');"><b><i>Look at Project</i></b></h4>
-                <h4 class="end_cr">(*click it*)</h4>
+                <h4 class="end_cr" ><b><i>Look at Project on GitHub</i></b></h4>
+                <h4 class="end_cr" id="gtcr" onclick="window.open('https://github.com/Natrexq/4UShop-Template-of-shop-JS-PHP-');">(*click it*)</h4>
 
                 </h5>
 
