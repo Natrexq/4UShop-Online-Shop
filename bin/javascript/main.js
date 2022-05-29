@@ -149,3 +149,6 @@ function BackHome(){
     location.href = "/bin/index.php";
     
 }
+function Look(){
+    document.getElementById('product').scrollIntoView();
+}
