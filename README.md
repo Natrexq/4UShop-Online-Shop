@@ -1,12 +1,13 @@
+<img src="bin/css/image1.png" >
 # 4UShop-Template-of-shop-JS-PHP-
 
 <h2>About project</h2>
 <h4>Idk what i can write about itd :P</h4>
 <h2>Pictures</h2>
 <br/>
-<img src="bin/css/4ushoptop.png" >
-<img src="bin/css/4ushopbot.png" >
 
+<img src="bin/css/image2.png" >
+<img src="bin/css/image3.png" >
 <h2>Languages that i used:<h3><b>PHP,JS,REACT</b></h3><h2/>
 
 
