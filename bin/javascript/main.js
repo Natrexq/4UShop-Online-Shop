@@ -151,7 +151,11 @@ function CheckDiv(){
 
 }
 function GoCart(){
-    location.href = "/bin/cart.html";
+    location.href = "#home";
+    setTimeout(function(){ 
+        location.href = "cart.php";
+    }, 1000);
+
 }
 function BackHome(){
     location.href = "/bin/index.php";
