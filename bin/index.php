@@ -77,7 +77,7 @@
             <h3 class="tx_home_nav"><a id="lk"href="#products">OFFER </a></h3>
             <h3 class="tx_home_nav" onclick="GoCart()">CART</h3>
             <h3 class="tx_home_nav">PRIVACY</h3>
-            <h3 class="tx_home_nav">HELP</h3>
+            <h3 class="tx_home_nav" onclick="GetHelp()">HELP</h3>
           
         
         </div>
