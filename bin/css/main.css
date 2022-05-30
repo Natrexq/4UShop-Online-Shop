@@ -513,6 +513,11 @@ button.dwbut{
 /*!6 IMAGES*/
 
 /*!7 SPECIAL*/
+
+form.none{
+    width: deafult;
+}
+
 #lk{
     text-decoration: none;
     color: #FFFFFF;
