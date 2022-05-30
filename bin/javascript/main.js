@@ -49,8 +49,6 @@ function FuConnect(){
 
 function Main(){
 
-    alert(color);
-
     var click;
 
     click = document.getElementById('foru');
