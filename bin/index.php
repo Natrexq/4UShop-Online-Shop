@@ -12,7 +12,7 @@
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script type="text/javascript">var serwer = "<?= $fileinfo ?>";</script>
+        <script type="text/javascript">var info = "<?= $info ?>";</script>
         <script src="javascript/main.js" type="text/javascript"></script>
   
 
@@ -22,7 +22,7 @@
     <body onload="Main()&FuConnect()">
     <link rel="stylesheet" href="css/main.css">
 
-        <div class="in_home">
+        <div class="in_home" id="home">
             <div class="home_el">
           
        
@@ -54,7 +54,7 @@
                                 
                                 <div class="el_srch">
                         
-                                            <input type="search" name="" class="inp_srch" id="">
+                                            <input  placeholder="Type something" type="search" name="" class="inp_srch" id="">
                                             <button class="but_dosrch" type="submit">Search</button>
                                      </div>
 
@@ -69,14 +69,14 @@
   
         <div class="home_nav_buts" >
         <div class="hmnav_cart">
-                    <button onclick="location.href = 'cart.php'" type="submit" class="but_gocart"></button>
+                    <button onclick="GoCart()" type="submit" class="but_gocart"></button>
                     <h1 class="cartcount"><?php ?></h1>
             </div>
 
-             <h3 class="tx_home_nav">HOME</h3>
-            <h3 class="tx_home_nav">SHOPPING</h3>
-            <h3 class="tx_home_nav">JOIN US</h3>
-            <h3 class="tx_home_nav">CART</h3>
+             <h3 class="tx_home_nav"><a id="lk"  href="#home">HOME</a></h3>
+            <h3 class="tx_home_nav"><a id="lk"href="#products">OFFER </a></h3>
+            <h3 class="tx_home_nav" onclick="GoCart()">CART</h3>
+            <h3 class="tx_home_nav">PRIVACY</h3>
             <h3 class="tx_home_nav">HELP</h3>
           
         
@@ -117,9 +117,14 @@
         <script src="javascript/buy.js" type="text/javascript"></script>
                     <div class="in_sellback">
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1" onclick="Buy(this.id)">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
+               
+
+                           
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1"  onclick="Buy(this.id)">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
                             <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2" onclick="Buy(this.id)">Unkown</h2></div>
                             <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" onclick="Buy(this.id)">-</h2></div>
+                       
+                    
                         </div>
                         
                         <div class="sl_sell">
