@@ -158,7 +158,11 @@ function GoCart(){
 
 }
 function BackHome(){
-    location.href = "/bin/index.php";
+    location.href = "index.php";
+    
+}
+function GetHelp(){
+    window.open("help.html");
     
 }
 function Look(){
