@@ -1,7 +1,5 @@
 <?php
-   $pr_name = "Unkown";
-
-
+ 
 ?>
 
 
