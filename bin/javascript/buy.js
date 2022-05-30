@@ -2,7 +2,7 @@
 var er0x000 = "0x000: Something went wrong"; 
 var er0x004 = "0x004: Unkown "; 
 
-function Buy(ida){
+function aBuy(ida){
 
         const prod = ida;
         var prod1,prod2,prod3;
