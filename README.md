@@ -1,12 +1,12 @@
-# 4UShop-Template-of-shop-JS-PHP-
+# 4UShop Template of the shop (JS-PHP)
+<img src="bin/css/image1.png" >
 
 <h2>About project</h2>
 <h4>Idk what i can write about itd :P</h4>
 <h2>Pictures</h2>
 <br/>
-<img src="bin/css/4ushoptop.png" >
-<img src="bin/css/4ushopbot.png" >
-
+<img src="bin/css/image2.png" >
+<img src="bin/css/image3.png" >
 <h2>Languages that i used:<h3><b>PHP,JS,REACT</b></h3><h2/>
 
 
@@ -34,9 +34,19 @@
   <h5><i>- added crash website (When server cant display website )Error 404 comunicate</i></h5>
   <h5><i>- nothing</i></h5>
   <br/>
-   <h4><b>25/05/2022</b></h4>
+   <h4><b>28/05/2022</b></h4>
 <h5><i>- Change style of home site</i></h5>
-  <h5><i>- actually nothing</i></h5>
+  <h5><i>- changed a lot of small issues</i></h5>
+   <h5><i>- I tryed write simple slider</i></h5>
+  <br/>
+   <br/>
+   <h4><b>29/05/2022</b></h4>
+<h5><i>- I did big change of website style</i></h5>
+   <h5><i>- fixed a lot bugs</i></h5>
+   <h5><i>- edit scrool bar</i></h5>
+  <h5><i>- started writing buy script</i></h5>
+   <h5><i>- Updated screen shots of webiste in readme.md</i></h5>
+  
   <br/>
   <h4><b>More in Update_log.txt</b></h4>
 
