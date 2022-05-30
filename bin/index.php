@@ -1,6 +1,5 @@
 <?php
 
-$color = "aaa";
 
 
 ?>
@@ -13,7 +12,7 @@ $color = "aaa";
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script type="text/javascript">var color = "<?= $color ?>";</script>
+        <script type="text/javascript">var serwer = "<?= $fileinfo ?>";</script>
         <script src="javascript/main.js" type="text/javascript"></script>
   
 
