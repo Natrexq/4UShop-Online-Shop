@@ -19,7 +19,7 @@ font-family: 'Roboto', sans-serif;
 body{
     scroll-behavior: smooth;
     width: 100%;
-    height: 145em;
+    height: 120em;
     float: left;
     margin: 0;
     background-color: rgb(234, 234, 234);
@@ -208,6 +208,14 @@ div.in_sh{
                     display: flex;
                     justify-content: space-around;
                     
+                }
+
+
+                div.hl_report{
+                    float: left;
+                    width: 100%;
+                    height: 20em;
+                    background-color: #01c031;
                 }
           
    
