@@ -163,15 +163,14 @@ div.in_sh{
     
 }      
     div.sh_back{
-    
         position:absolute;
         width: 100%;
         height: 100%;
         filter: brightness(33%);
         background-image: url('hmimg2.jpg');
         background-size: cover;
-        -webkit-filter: brightness(30%);
-    }   
+        
+}   
     div.sh_area{
         margin-top: 10em;
         position: relative;
@@ -493,6 +492,10 @@ h2.ch_control{
                 outline: none;
               
             
+            }
+            .inp_wrt_report::placeholder{
+                color: rgb(82, 80, 37);
+                    
             }
             input.inptx_counter{
                 text-align: center;
