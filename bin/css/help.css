@@ -217,31 +217,32 @@ div.in_sh{
                     height: 45.5em;
                     background-color: #0a0b0d;
                     display: flex;
-                    justify-content: space-around;
+                    justify-content: center;
                 }
                     .report_dv{
                         width: 50em;
-                        height: 25em;
+                        height: 16em;
                         border-radius: 4.5em 2em 4.5em 2em;
-                        margin: 8em 0em 0em 10em;
-                        /*TOP,RIGHT,BOTTOM,LEFT*/background-color: #141517;
+                        margin: 10em 0em 0em 0em;
+                        /*TOP,RIGHT,BOTTOM,LEFT*/ background-color: #121416;
                         -webkit-border-radius: 4.5em 2em 4.5em 2em;
                         -moz-border-radius: 4.5em 2em 4.5em 2em;
                         -ms-border-radius: 4.5em 2em 4.5em 2em;
                         -o-border-radius: 4.5em 2em 4.5em 2em;
-                        display: flex;
-                        justify-content: center;
+                   
+}                   .dv_repinptx{
+                        margin-top: 0em;
+                       width: 100%;
+                          display: flex;
+                          justify-content: center;
 }
-                    .report_send{
-
-                        width: 22em;
-                        margin: 13em 2em 0em 0em;
+                    .report_controls{
+                        margin-top: 0em;
+                        width: 100%;
                         display: flex;
-                        justify-content: center;
-                        background: none;
-                        height: 15em;
-
+                        justify-content: space-around;
                     }
+                 
                 div.hl_contact{
                     float: left;
                     width: 100%;
@@ -412,19 +413,81 @@ h2.ch_control{
                 outline: none;
     
             }
-    button.but_snd_report{
-        margin-top: 3.8em;
-        width: 20em;
-        color: rgb(0, 169, 169);
-        background: none;
-        height: 10em;
-        border-radius: 60px;
-        border: 4px solid rgb(0, 169, 169);
-        -webkit-border-radius: 60px;
-        -moz-border-radius: 60px;
-        -ms-border-radius: 60px;
-        -o-border-radius: 60px;
+
+            input.inp_wrt_report{
+                translate: no;
+                color: rgb(150, 143, 0);
+                font-family: 'Source Sans Pro', sans-serif;
+                font-weight: normal;
+                font-size: 130%;
+                text-align: center;
+                display: flex;
+                margin-top: 1.5em;
+                background-color: #5f5f5316;
+                width: 35em;
+                height: 4.5em;
+                border: none;
+                border-radius: 2.5em 1em 2.5em 1em;
+                -webkit-border-radius: 2.5em 1em 2.5em 1em;
+                -moz-border-radius: 2.5em 1em 2.5em 1em;
+                -ms-border-radius: 2.5em 1em 2.5em 1em;
+                -o-border-radius: 2.5em 1em 2.5em 1em;
 }
+            input.inp_wrt_report:hover,:focus{
+                outline: none;
+              
+            
+            }
+            input.inptx_counter{
+                text-align: center;
+                font-weight: normal;
+                background-color: #919100;
+                width: 5em;
+                margin-top: 1em;
+                height: 3em;
+                color: rgb(0, 0, 0);
+                font-family: 'Prompt', sans-serif;
+                border: none;
+                font-size: 150%;
+                cursor: grab;
+                transition: background-color 1s;
+                border-radius: 30px;
+                -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;
+                -ms-border-radius: 30px;
+                -o-border-radius: 30px;
+                -webkit-transition: background-color 1s;
+                -moz-transition: background-color 1s;
+                -ms-transition: background-color 1s;
+                -o-transition: background-color 1s;
+}
+                input.inptx_counter:hover,.but_snd_report:hover{ background-color: #dfdf00;}
+
+
+              button.but_snd_report{
+                cursor: grab;
+                transition: background-color 1s;
+                margin-top: 2em;
+                width: 20em;
+                color: rgb(0, 0, 0);
+                background-color: #b1b100;
+                height: 6em;
+                border-radius: 60px;
+                font-family: 'Source Sans Pro', sans-serif;
+                -webkit-border-radius: 60px;
+                -moz-border-radius: 60px;
+                -ms-border-radius: 60px;
+                -o-border-radius: 60px;
+                -webkit-transition: background-color 1s;
+                -moz-transition: background-color 1s;
+                -ms-transition: background-color 1s;
+                -o-transition: background-color 1s;
+}
+                .tx_but_sdrp{
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-size: 160%;
+                    
+                }
 
     button.but_dosrch{
         width: 5em;
