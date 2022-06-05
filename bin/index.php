@@ -19,7 +19,7 @@
         <script src="javascript/buy.js" type="text/javascript"></script>
     </head>
  
-    <body onload="Main()&FuConnect()">
+    <body onload="Main()">
     <link rel="stylesheet" href="css/main.css">
 
         <div class="in_home" id="home">
