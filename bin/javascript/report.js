@@ -3,21 +3,59 @@ function Report(a){
 
     const mxwrd = "/120"
 
-    var msg,txval,txinp,sdbut;
+    var msg,valms,txinp,sdbut;
 
     msg = document.getElementById('valcnt');
-    txval = document.getElementById('wrtrepo').value;
+    
+    valms = document.getElementById('wrtrepo');
+
     txinp = document.querySelector('.inp_wrt_report');
     sdbut = document.querySelector('.but_snd_report');
 
+    var valtx = txinp.value;
 
-    msg.innerHTML = "val"+ mxwrd;
+    var vltxleng = (0 + (valtx.length));
+  
+
 
     sdbut.addEventListener('click', function SendReport(){
 
-        alert(txval);
+        if(txinp.value == ""){
+            alert("First you must write content of report");
 
-    });
+        }
+        else{
+            if(vltxleng > 10){
+                alert(txinp.value);
+                
+    
+            }
+            else{
+                if(vltxleng < 10){
+                    alert("Content of report must be longer than 10 worlds!");
+                }
+                else{
+
+                }
+               
+            }
+            
+            
+        }
+
+
+        });
+       
+        txinp.addEventListener('keydown', function WrdStats(){
+            
+           
+            
+             msg.innerHTML = vltxleng + "/120";
+  
+      });
+      
+        
+    
 
 }
 function Exit(){
