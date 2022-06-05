@@ -1,49 +1,31 @@
 
 function Report(a){
 
-    var global,inpval,message,svmessage,sendbut,wrdsts;
+    const mxwrd = "/120"
 
-        wrdsts = document.querySelector('.inptx_counter');
+    var msg,txval,txinp,sdbut;
 
-        sendbut = document.getElementById('sndrepo');
-
-        inpval = document.getElementById('wrtrepo');
-
-        valinp = inpval.value;
-
-  
+    msg = document.getElementById('valcnt');
+    txval = document.getElementById('wrtrepo').value;
+    txinp = document.querySelector('.inp_wrt_report');
+    sdbut = document.querySelector('.but_snd_report');
 
 
-    sendbut.addEventListener('click', function SndBut(){
+    msg.innerHTML = "val"+ mxwrd;
 
-        if(valinp == ""){
-            alert("First you must write report");
-    
+    sdbut.addEventListener('click', function SendReport(){
 
-
-        }
-        else{
-           alert(valinp);
-     
-
-        }
-
-
-
-         
-
-       
-
-        });
-    wrdsts.addEventListener('click', function WrdStats(){
-
-          alert("click");
+        alert(txval);
 
     });
 
+}
+function Exit(){
 
+    alert('Are you sure dont need a help?');
 
 }
 
 
 window.addEventListener('load', Report, false);
+//window.addEventListener('resize',Exit, false);
