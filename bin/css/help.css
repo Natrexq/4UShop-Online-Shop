@@ -140,9 +140,10 @@ div.in_home_nav{
         }       
 
     div.home_nav_buts{
-        width: 55%;
+        width: 25%;
     height: 100%;
-    background-color: none;
+    background: none;
+
     display: flex;
     justify-content: space-around;
     }       
