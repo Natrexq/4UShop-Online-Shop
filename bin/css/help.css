@@ -498,7 +498,14 @@ h2.ch_control{
                 color: rgb(82, 80, 37);
                     
             }
-            input.inptx_counter{
+
+
+            h2.cnt_val{
+                font-size: 120%;
+                margin-top: 0.7em;
+            }
+
+            div.inptx_counter{
                 text-align: center;
                 font-weight: normal;
                 background-color: #b1b100;
@@ -521,7 +528,7 @@ h2.ch_control{
                 -ms-transition: background-color 1s;
                 -o-transition: background-color 1s;
 }
-                input.inptx_counter:hover,.but_snd_report:hover{ background-color: #dfdf00;}
+                div.inptx_counter:hover,.but_snd_report:hover{ background-color: #dfdf00;}
 
 
               button.but_snd_report{
