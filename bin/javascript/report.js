@@ -46,3 +46,4 @@ function Report(a){
 }
 
 
+window.addEventListener('load', Report, false);
