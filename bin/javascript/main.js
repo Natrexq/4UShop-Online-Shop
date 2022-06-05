@@ -168,3 +168,4 @@ function GetHelp(){
 function Look(){
     document.getElementById('product').scrollIntoView();
 }
+window.addEventListener('load', FuConnect, false);
