@@ -8,7 +8,9 @@
         <script type="text/javascript">var info = "<?= $info ?>";</script>
         <script src="javascript/main.js" type="text/javascript"></script>
     </head>
-    <body onload="FuConnect()">
+    <body onload="FuConnect()&Report()">
+        
+        <script src="javascript/report.js" type="text/javascript" ></script>
      
         <link rel="stylesheet" href="css/help.css">
     
@@ -95,7 +97,7 @@
                             <button type="submit" class="dwbut" id="godw"><h2 class="lkaro"><a id="lk"  href="#contact_page">Contact with us</a></h2></button>
                         </div>
                             
-                        
+
                         </div>
                         
                        <div id="report_page">report</div>
@@ -111,19 +113,21 @@
 
         <div class="hl_report">
             
-                                <script src="javascript/report.js" type="text/javascript" ></script>
                 <div class="report_dv">
                     <div class="dv_rep_tip">
-                        <h2 class="tx_tipbig">Report</h2>
+                        
+                        <h2 class="tx_tipbig" id="okej">Report</h2>
                     </div>   
                     <h2 class="tx_tipsmall">Describe your problem</h2>
                     <div class="dv_repinptx">
+
                         <input placeholder="For example:  'I can't see availability status of product '" translate="no" type="text" name="" maxlength="100" id="wrtrepo" class="inp_wrt_report">
                     </div>
                   
                     <div class="report_controls">
-                        <input type="text" readonly="readonly" max="1" class="inptx_counter" value="   /120">
-                        <button onclick="Test()" id="sndrepo" type="submit" class="but_snd_report">
+                        
+                        <input type="text" readonly="readonly" class="inptx_counter" id="counter" value="120">
+                        <button id="sndrepo" onclick=" Report()" type="submit" class="but_snd_report">
                             <h2 class="tx_but_sdrp">Send Report</h2>
                                </button>
 
