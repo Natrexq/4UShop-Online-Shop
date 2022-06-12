@@ -122,6 +122,8 @@
                         <h2 class="tx_tipbig" id="okej">Report</h2>
                     </div>   
                     <h2 class="tx_tipsmall">Describe your problem</h2>
+
+                    <form id="forms" action="bckweb/report.php" method="post">
                     <div class="dv_repinptx">
 
                         <input placeholder="For example:  'I can't see availability status of product '" translate="no" type="text" name="" maxlength="70" id="wrtrepo" class="inp_wrt_report">
@@ -134,11 +136,12 @@
                                             <h2 class="cnt_val" id="count">1</h2>
                         </div>
                        
-                        <button onclick="Report()" id="sndrepo" type="submit" class="but_snd_report">
+                        <button id="sndrepo" type="submit" class="but_snd_report">
                             <h2  class="tx_but_sdrp">Send Report</h2>
                                </button>
 
                     </div>
+                </form>
                  
                 </div>
            
