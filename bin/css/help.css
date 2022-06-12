@@ -532,6 +532,7 @@ h2.ch_control{
 
 
               button.but_snd_report{
+                
                 cursor: grab;
                 transition: background-color 1s;
                 margin-top: 2em;
