@@ -20,5 +20,10 @@ function FuCounter(){
    
 
 }
+function Report(){
+    const forms = document.getElementById('forms');
+    alert(forms);
 
+}
+window.addEventListener('load', Report, false);
 window.addEventListener('load', FuCounter, false);
