@@ -1,14 +1,12 @@
 
-    worldsval = document.getElementById('wrtrepo').value;
-
 function FuCounter(){
 
-    var worldsval,counter,sendbut,mathval;
+    var worldsval,counter,mathval;
 
     counter = document.getElementById('count');
     worldsinp = document.getElementById('wrtrepo');
     worldsval = document.getElementById('wrtrepo').value;
-    sendbut = document.getElementById('sndrepo');
+  
 
 
 
@@ -19,22 +17,8 @@ function FuCounter(){
     
     worldsinp.addEventListener('keydown', FuCounter, false);
 
-    sendbut.addEventListener('click', FuCounter,false);
+   
 
 }
-function Report(){
-    var worldsval,message,savetext;
-
-
-
-
-}
-
-
-
-
-
-
-
 
 window.addEventListener('load', FuCounter, false);
