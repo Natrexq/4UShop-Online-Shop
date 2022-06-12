@@ -162,7 +162,7 @@ function BackHome(){
     
 }
 function GetHelp(){
-    window.open("help.php");
+    window.open("help.html");
     
 }
 function Look(){
