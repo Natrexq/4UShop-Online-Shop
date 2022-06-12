@@ -1,4 +1,6 @@
 
+    worldsval = document.getElementById('wrtrepo').value;
+
 function FuCounter(){
 
     var worldsval,counter,sendbut,mathval;
@@ -20,7 +22,13 @@ function FuCounter(){
     sendbut.addEventListener('click', FuCounter,false);
 
 }
+function Report(){
+    var worldsval,message,savetext;
 
+
+
+
+}
 
 
 
