@@ -127,10 +127,10 @@
             </div>
             <h2 class="tx_tipsmall">Describe your problem</h2>
 
-            <form id="forms" action="bckweb/report.php" method="post">
+          
                 <div class="dv_repinptx">
 
-                    <input placeholder="For example:  'I can't see availability status of product '" translate="no"
+                    <input autocomplete="off" placeholder="For example:  'I can't see availability status of product '" translate="no"
                         type="text" name="" maxlength="70" id="wrtrepo" class="inp_wrt_report">
                 </div>
 
@@ -138,15 +138,15 @@
 
 
                     <div class="inptx_counter" id="valcnt">
-                        <h2 class="cnt_val" id="count">1</h2>
+                        <h2 class="cnt_val" id="count">0/70</h2>
                     </div>
 
-                    <button id="sndrepo" type="submit" class="but_snd_report">
+                    <button onclick="Report()" id="sndrepo" type="submit" class="but_snd_report">
                         <h2 class="tx_but_sdrp">Send Report</h2>
                     </button>
 
                 </div>
-            </form>
+
 
         </div>
 
@@ -156,23 +156,34 @@
 
     <div class="hl_contact" id="contact_page">
 
-        <div class="contact_mail">
+                <div class="box">
+                    <div class="mailback">
+                        <div class="mailimg">
+
+                        </div>
+                    </div>
+                  
+                    <div class="mailbox"><span id="mail">4ushop.contact@gmail.com</span></div>
+                    
+
+
+                </div>
+              
+       
+
+            
+     
 
         </div>
-        <div class="contact_socials">
-
-        </div>
-        <div class="contact_other">
-
-        </div>
-
-
+        
 
     </div>
 
 
 
     <div class="in_end">
+
+        <span id="rights">4ushop.com all rights reserved &#169;</span>
 
 
     </div>
