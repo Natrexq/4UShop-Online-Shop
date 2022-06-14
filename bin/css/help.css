@@ -14,6 +14,7 @@ font-family: 'Roboto', sans-serif;
 */
 *{
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -267,9 +268,59 @@ div.in_sh{
                 div.hl_contact{
                     float: left;
                     width: 100%;
+                    display: flex;
+                    justify-content: center;
                     height: 15em;
                     background-color: #2b374b;
                 }
+                    div.box{
+                        background: none;
+                        width: 20em;
+                        height: 100%;
+                        display: block;
+                        
+                    }   
+                        .mailback{
+                            width: 20em;
+                            height: 10em;
+                            display: flex;
+                            justify-content: center;
+                            background: none;
+                        }
+                        .mailimg{
+                            display: flex;
+                            justify-content: center;
+                            background-size: cover;
+                            width: 11em;
+                            height: 11em;
+                            background-image: url("mail.png");
+                        }
+                    
+                        .mailbox{
+                            display: flex;
+                            justify-content: center;
+                            
+                            width: 20em;
+                            height: 5em;
+                            background: none;
+                        }
+                        #mail{
+                            cursor: pointer;
+                            color: rgb(0, 0, 0);
+                            margin-top: 0.7em;
+                            font-family: 'Source Sans Pro', sans-serif;
+                            font-weight: bold;
+                            font-size: 120%;
+                            transition: font-size 0.5s;
+                            -webkit-transition: font-size 0.5s;
+                            -moz-transition: font-size 0.5s;
+                            -ms-transition: font-size 0.5s;
+                            -o-transition: font-size 0.5s;
+}
+                        #mail:hover{
+                            font-size: 140%;
+                        }
+                    
           
 
 
@@ -278,13 +329,18 @@ div.in_end{
     color: white;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
     float: left;
     height: 5em;
     background-color: 	#181818;
 
 }
-    
+    #rights{
+        margin: 2em 0em 0em 1em;
+        color: #5a5a5a;
+        font-family: 'Nanum Gothic', sans-serif;
+
+    }
 
 /*!4 TEXT */
 h2.tx_tipbig{
