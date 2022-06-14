@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 body{
     scroll-behavior: smooth;
     width: 100%;
-    height: 140em;
+    height: 260em;
     float: left;
     margin: 0;
     background-color: rgb(234, 234, 234);
@@ -158,7 +158,7 @@ div.in_sh{
     display: flex;
     justify-content: center;
     float: left;
-    height: 40em;
+    height: 45em;
     background-color: #ffffff;
     
     
@@ -168,7 +168,7 @@ div.in_sh{
     div.pv_privacy{
         width: 100%;
         float: left;
-        height: 10em;
+        height: 120em;
         background-color: #303131;
         
     }
@@ -176,15 +176,18 @@ div.in_sh{
     div.pv_data{
         width: 100%;
         float: left;
-        height: 10em;
+        height: 60em;
         background-color: #2b374b;
     }
     
     div.pv_download{
         width: 100%;
         float: left;
-        height: 10em;
+        height: 22em;
         background-color: #5a5a5a;
+        display: flex;
+        justify-content: center;
+
         }
     
     
@@ -219,6 +222,13 @@ div.in_end{
     }
 
 /*!4 TEXT */
+
+h2.download{
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-size: 200%;
+    margin-top: 2em; 
+}
 h1.tx_home{
    
     color: white;
