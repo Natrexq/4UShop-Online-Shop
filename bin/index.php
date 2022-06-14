@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html lang="en">
      <!---home index-->
-    <head>
+     <head>
       
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -73,11 +73,12 @@
                     <h1 class="cartcount"><?php ?></h1>
             </div>
 
-             <h3 class="tx_home_nav"><a id="lk"  href="#home">HOME</a></h3>
-            <h3 class="tx_home_nav"><a id="lk"href="#products">OFFER </a></h3>
-            <h3 class="tx_home_nav" onclick="GoCart()">CART</h3>
-            <h3 class="tx_home_nav">PRIVACY</h3>
-            <h3 class="tx_home_nav" onclick="GetHelp()">HELP</h3>
+            <h3 id="hm" class="tx_home_nav">HOME</h3>
+            <h3 id="of" class="tx_home_nav">OFFER</h3>
+            <h3 id="ct" class="tx_home_nav">CART</h3>
+            <h3 id="pv" class="tx_home_nav">PRIVACY</h3>
+            <h3 id="hp" class="tx_home_nav">HELP</h3>
+            <h3 id="bc" class="tx_home_hide">BACK</h3>
           
         
         </div>
