@@ -20,7 +20,7 @@ font-family: 'Roboto', sans-serif;
 body{
     scroll-behavior: smooth;
     width: 100%;
-    height: 53em;
+    height: 140em;
     float: left;
     margin: 0;
     background-color: rgb(234, 234, 234);
@@ -165,7 +165,42 @@ div.in_sh{
    
     
 }       
-   
+    div.pv_privacy{
+        width: 100%;
+        float: left;
+        height: 10em;
+        background-color: #303131;
+        
+    }
+
+    div.pv_data{
+        width: 100%;
+        float: left;
+        height: 10em;
+        background-color: #2b374b;
+    }
+    
+    div.pv_download{
+        width: 100%;
+        float: left;
+        height: 10em;
+        background-color: #5a5a5a;
+        }
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 div.in_end{
     color: white;
     width: 100%;
