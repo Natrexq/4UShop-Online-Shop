@@ -154,32 +154,50 @@ function ButSystem(){
 
     var home,offer,cart,privacy,help,back;
 
-    home = document.getElementById('');
-    offer = document.getElementById('');
-    cart = document.getElementById('');
-    privacy = document.getElementById('');
-    help = document.getElementById('');
-    back = document.getElementById('');
+    home = document.getElementById('hm');
+    offer = document.getElementById('of');
+    cart = document.getElementById('ct');
+    privacy = document.getElementById('pv');
+    help = document.getElementById('hp');
+    back = document.getElementById('bc');
+
+    back.addEventListener('click', function Back(){
+        location.href = "index.php";
+    });
+
+    home.addEventListener('click', function Home(){
+        location.href = "#home";
+    });
 
 
-}
-
-function GoCart(){
-    location.href = "#home";
-    setTimeout(function(){ 
-        location.href = "cart.php";
-    }, 1000);
-
-}
-function BackHome(){
-    location.href = "index.php";
+    offer.addEventListener('click', function Offer(){
+        location.href = "#products";
+    });
+    cart.addEventListener('click', function Cart(){
+        location.href = "#home";
+        setTimeout(function(){ 
+            location.href = "cart.php";
+        }, 1000);
     
-}
-function GetHelp(){
-    location.href = "help.html";
-    
+    });
+    privacy.addEventListener('click', function Privacy(){
+        window.open("privacy.html");
+    });
+
+    help.addEventListener('click', function Help(){
+        location.href = "help.html";
+    });
+   
+   
+ 
+
+// location.href = "#home";
 }
 function Look(){
     document.getElementById('product').scrollIntoView();
 }
+
+
+
 window.addEventListener('load', FuConnect, false);
+window.addEventListener('load', ButSystem, false);
