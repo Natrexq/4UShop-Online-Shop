@@ -150,6 +150,20 @@ function CheckDiv(){
         
 
 }
+function ButSystem(){
+
+    var home,offer,cart,privacy,help,back;
+
+    home = document.getElementById('');
+    offer = document.getElementById('');
+    cart = document.getElementById('');
+    privacy = document.getElementById('');
+    help = document.getElementById('');
+    back = document.getElementById('');
+
+
+}
+
 function GoCart(){
     location.href = "#home";
     setTimeout(function(){ 
@@ -162,7 +176,7 @@ function BackHome(){
     
 }
 function GetHelp(){
-    window.open("help.html");
+    location.href = "help.html";
     
 }
 function Look(){
