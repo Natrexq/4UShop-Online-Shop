@@ -1,13 +1,5 @@
 <?php
-    $crtby_item = "Unkown";
-    $crtby_id = "0";
-    $crtby_status;
-
-    $way = "UNKOWN";
-   // $way = $crtby_item + "/" + $crtby_id + "Cart" + "/" + "Finalize" ;
-
-
-   $quantity = "1";
+    $quantity = "0";
 
 ?>
 
@@ -18,15 +10,17 @@
     <head>
       
         <title>Cart (<?php echo $quantity;?>)-4UShop.com</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">var info = "<?= $info ?>";</script>
         <script src="javascript/main.js" type="text/javascript"></script>
+  
 
+        <script src="javascript/buy.js" type="text/javascript"></script>
     </head>
  
     <body onload="Main()">
     <link rel="stylesheet" href="css/cart.css">
 
-        <div class="in_home">
+    <div class="in_home" id="home">
             <div class="home_el">
           
        
@@ -36,21 +30,18 @@
 
                 </div>
                     <div class="el_fixnav">
+                        
                       <div class="el_nav">
-                        <div class="nav_way">
-                            <h2 class="way">
-                            <?php
-                                echo $way;
-                                ?>
-
-
-                            </h1>
-                        </div>
+                      <div class="nav_contback">
+                                <h2 id="con_el" class="ch_control"></h2>
+                                </div>
                             <div class="nav_butback">
-
+                                
+                              
+                           
                             <button type="submit" class="nav_navbuts">Status</button>
                                         <button type="submit" class="nav_navbuts">About</button>
-                                        <button type="submit" class="nav_navbuts">Contect</button>
+                                        <button type="submit" class="nav_navbuts">Contact</button>
                                         <button type="submit" class="nav_navbuts">Settings</button>
 
                             </div>
@@ -61,7 +52,7 @@
                                 
                                 <div class="el_srch">
                         
-                                            <input type="search" name="" class="inp_srch" id="">
+                                            <input  placeholder="Type something" type="search" name="" class="inp_srch" id="">
                                             <button class="but_dosrch" type="submit">Search</button>
                                      </div>
 
@@ -75,35 +66,48 @@
         <div class="in_home_nav" id="homenav">
   
         <div class="home_nav_buts" >
-  
+      
 
-             <h3 class="tx_home_nav">HOME</h3>
-            <h3 class="tx_home_nav">CART</h3>
-            <h3 class="tx_home_nav">HELP</h3>
+            <h3 id="hm" class="tx_home_hide">HOME</h3>
+            <h3 id="of" class="tx_home_hide">OFFER</h3>
+            <h3 id="ct" class="tx_home_hide">CART</h3>
+            <h3 id="bc" class="tx_home_nav">BACK</h3>
+            <h3 id="pv" class="tx_home_nav">PRIVACY</h3>
+            <h3 id="hp" class="tx_home_nav">HELP</h3>
+            
           
         
         </div>
             
 
         </div>
+       
         <div class="in_sh">
            
+                <div class="about">
+                    <div class="bcimg">
+                        <div class="img">
 
+
+                        </div>
+                    </div>
+                    <div class="abtx">
+                        <span id="soon">Soon</span>
+                    </div>
+                </div>
 
 
         </div>
        
       
-        <div class="in_end">
-            <h1>End</h1>
-            <div class="in_dev">
-                <h5 class="tx_dev">
+        
+
+    <div class="in_end">
+
+<span id="rights">4ushop.com all rights reserved &#169;</span>
 
 
-                </h5>
-
-            </div>
-        </div>
+</div>
 
 
     
