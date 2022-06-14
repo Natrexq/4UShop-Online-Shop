@@ -166,7 +166,7 @@ div.in_sh{
     
 }       
         div.about{
-            margin-top: 12em;
+            margin-top: 16em;
             width: 22em;
             height: 12em;
             display: block;
@@ -176,12 +176,12 @@ div.in_sh{
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                height: 6em;
+                height: 4em;
                 background: none;
             }
                 .img{
-                    width: 6em;
-                    height: 6em;
+                    width: 4em;
+                    height: 4em;
                     background-size: cover;
                 background-image: url("ghost.png");
                     
@@ -197,7 +197,7 @@ div.in_sh{
                         color: rgb(20, 20, 20);
                         font-weight: bold;
                         font-family: 'Source Sans Pro', sans-serif;
-                        font-size: 340%;
+                        font-size: 280%;
                         cursor: pointer;
                         transition: font-size 0.5s;
                         -webkit-transition: font-size 0.5s;
@@ -205,7 +205,7 @@ div.in_sh{
                         -ms-transition: font-size 0.5s;
                         -o-transition: font-size 0.5s;
 }
-                    #soon:hover{font-size: 380%;}
+                    #soon:hover{font-size: 320%;}
 
 
  
