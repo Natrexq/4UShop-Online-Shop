@@ -603,3 +603,9 @@ button.but_gocart{
     .pr_desc:hover{font-size: 115%;}
 
 
+
+
+    .tx_home_hide{
+        visibility: hidden;
+        display: none;
+    }
