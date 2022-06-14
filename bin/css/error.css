@@ -21,3 +21,19 @@ div.er_backer{
             background: linear-gradient(90deg, rgba(43,47,54,1) 15%, rgba(25,54,31,1) 100%);
 
         }
+
+
+        
+
+
+
+
+
+
+
+
+
+        .tx_home_hide{
+            visibility: hidden;
+            display: none;
+        }
