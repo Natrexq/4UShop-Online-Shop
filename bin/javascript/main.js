@@ -152,14 +152,14 @@ function CheckDiv(){
 }
 function ButSystem(){
 
-    var home,offer,cart,privacy,help,back;
+    
 
-    home = document.getElementById('hm');
-    offer = document.getElementById('of');
-    cart = document.getElementById('ct');
-    privacy = document.getElementById('pv');
-    help = document.getElementById('hp');
-    back = document.getElementById('bc');
+    const home = document.getElementById('hm');
+    const offer = document.getElementById('of');
+    const cart = document.getElementById('ct');
+    const privacy = document.getElementById('pv');
+    const help = document.getElementById('hp');
+    const back = document.getElementById('bc');
 
     back.addEventListener('click', function Back(){
         location.href = "index.php";
@@ -181,7 +181,7 @@ function ButSystem(){
     
     });
     privacy.addEventListener('click', function Privacy(){
-        window.open("privacy.html");
+        location.href = "privacy.html";
     });
 
     help.addEventListener('click', function Help(){
