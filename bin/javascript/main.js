@@ -54,8 +54,9 @@ function Main(){
     click = document.getElementById('foru');
 
     click.addEventListener('click', function DoClicked(){
+        
+        location.href = "index.php";
 
-        alert("g");
     } );
 
     
