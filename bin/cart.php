@@ -72,7 +72,7 @@
             <h3 id="of" class="tx_home_hide">OFFER</h3>
             <h3 id="ct" class="tx_home_hide">CART</h3>
             <h3 id="bc" class="tx_home_nav">BACK</h3>
-            <h3 id="pv" class="tx_home_nav">PRIVACY</h3>
+            <h3 id="pv" class="tx_home_nav">RULES</h3>
             <h3 id="hp" class="tx_home_nav">HELP</h3>
             
           
