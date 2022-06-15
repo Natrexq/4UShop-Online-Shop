@@ -13,8 +13,12 @@ font-family: 'Roboto', sans-serif;
 
 */
 *{
+    text-decoration: none;
     scroll-behavior: smooth;
     
+}
+a{
+    color: #ffffff;
 }
 
 body{
@@ -511,7 +515,9 @@ h2.ads:hover,h2.ad:hover{
         color: #111111;
         cursor: pointer;
     }
-
+    #back{
+         cursor: pointer;
+    }
 
 
 
