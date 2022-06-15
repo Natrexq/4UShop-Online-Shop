@@ -74,9 +74,9 @@
             </div>
 
             <h3 id="hm" class="tx_home_nav">HOME</h3>
-            <h3 id="of" class="tx_home_nav">OFFER</h3>
+                           <h3 id="of" class="tx_home_nav">OFFER</h3>
             <h3 id="ct" class="tx_home_nav">CART</h3>
-            <h3 id="pv" class="tx_home_nav">PRIVACY</h3>
+            <h3 id="pv" class="tx_home_nav">RULES</h3>
             <h3 id="hp" class="tx_home_nav">HELP</h3>
             <h3 id="bc" class="tx_home_hide">BACK</h3>
           
