@@ -7,6 +7,7 @@
         <title>Privacy - 4UShop.com</title>
         <script type="text/javascript"></script>
         <script src="javascript/main.js" type="text/javascript"></script>
+        <script src="javascript/rules.js" type="text/javascript"></script>
     </head>
  
     <body onload="Main()">
@@ -78,18 +79,18 @@
         </div>
        
         <div class="in_sh">
-                <div class="adbox">
+                <div class="adbox" >
                         <div class="adbox_start">
                             <h1 class="tx_adfirst">4uShop.com</h1>
                         </div>
                     <div class="adbox_adms">
-                        <h2 class="ads">	&#167; Rules & privacy regulation</h2>
+                        <h2 class="ads"> Rules & privacy regulation</h2>
                     </div>
                     <div class="adbox_ad">
-                        <h2 class="ad">	1&#167; General Regulations</h2>
-                        <h2 class="ad">	2&#167; Cookies</h2>
-                        <h2 class="ad">	3&#167; Privacy</h2>
-                        <h2 class="ad">	4&#167; Licence</h2>
+                        <h2 id="gen" class="ad">	1&#167; General Regulations</h2>
+                        <h2 id="cok" class="ad">	2&#167; Cookies</h2>
+                        <h2 id="prv" class="ad">	3&#167; Privacy</h2>
+                        <h2 id="lic" class="ad">	4&#167; Licence</h2>
                         <span id="disclamer">*This is random generated text</span>
                     </div>
         
@@ -101,10 +102,10 @@
         </div>
             <div class="pv_rules">
 
-                <div class="rules_back">
+                <div class="rules_back"  id="rules">
 
                     <div class="rules_general">
-                                      <h2 class="tx_firstrules">	1&#167; General Regulationn</h2>
+                                      <h2 class="tx_firstrules" >	1&#167; General Regulationn</h2>
                                       <h2 class="tx_rules"> - Two exquisite objection delighted deficient yet its contained. Cordial because are acc
                                         ount evident its subject but eat. Can properly followed learning prepared you doubtful yet him.</h2>
                                       <h2 class="tx_rules"> - Over many our good lady feet ask that. Expenses own moderate day fat trifling s
@@ -113,6 +114,7 @@
                                         ered mention greater fifteen one promise because nor. Why denoting speaking fat indulged saw dwelling raillery</h2>
                         
                     </div>
+                    <span id="cookies"></span>
                     <div class="rules_cookies">
                         <h2 class="tx_firstrules">	2&#167; Cookies</h2>
                         <h2 class="tx_rules">- Sympathize it projection ye insipidity celebrated my pianoforte indulgence. Point his truth put style. Elegance exercise as laughing proposal mistaken if. We up precaution an it solicitude acceptance invitation.
@@ -123,6 +125,7 @@
                             Resolve pursuit regular so calling me. West he plan girl been my then up no.</h2>
 
                     </div>
+                        <span id="privacy"></span>
                     <div class="rules_privacy">
                         <h2 class="tx_firstrules">	3&#167; Privacy</h2>
                         <h2 class="tx_rules">- Maids table how learn drift but purse stand yet set. Music me house could among oh as their
@@ -138,7 +141,8 @@
                         </h2>
 
                     </div>
-                    <div class="rules_licence">
+                    <span id="licence"></span>
+                    <div class="rules_licence" >
                         <h2 class="tx_firstrules">	4&#167; Licence (GNU)</h2>
                         <h2 class="tx_rules">GNU General Public License v3.0</h2>
                         <h2 class="tx_rules">       Version 3, 29 June 2007
@@ -151,7 +155,7 @@
                             The GNU General Public License is a free, copyleft license for
                           software and other kinds of works.</h2>
                           <h2   id="more" class="tx_firstrules">Read More..</h2>
-
+                          <span id="back" >Back</span>
                     </div>
                
           
@@ -167,9 +171,10 @@
                 <h2 id="download" class="download">Download as PDF file:</h2>
 
                 <div class="dow">
-                    <div class="dow_box">
-                        <button class="dw_pdf"><div id="img"></div><h2 class="hdwl">Rules</h2></button>
-                        <button class="dw_lic"><div id="img"></div><h2 class="hdwl">&nbsp;Licence</h2></button>
+                    <div class="dow_box" id="dwbox">
+                        <button class="dw_pdf"><div id="img"></div><a href="bckweb/4US&Data&Privacy.pdf" download><h2 class="hdwl">Rules</h2></a></button>
+                        <button class="dw_lic"><div id="img"></div><a href="bckweb/Gnu_Licence.pdf" download><h2 class="hdwl">Licence</h2></a></button>
+
                 </div>
                 </div>
            
