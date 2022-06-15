@@ -2,3 +2,6 @@
     visibility: hidden;
     display: none;
 }
+#foru{
+    cursor: pointer;
+}
