@@ -165,6 +165,49 @@ div.in_sh{
    
     
 }       
+
+div.adbox{
+    background: #f8f8f8;
+    border-radius: 2.5em 2.5em 6em 6em;
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 1px 12px rgb(200, 200, 200);
+    width: 40em;
+    margin-top: 6em;
+    display: block;
+    height: 70%;
+    -webkit-border-radius: 2.5em 2.5em 6em 6em;
+    -moz-border-radius: 2.5em 2.5em 6em 6em;
+    -ms-border-radius: 2.5em 2.5em 6em 6em;
+    -o-border-radius: 2.5em 2.5em 6em 6em;
+}
+
+    .adbox_start{
+        float: left;
+        width: 100%;
+        height: 5em;
+        text-align: center;
+        background: none;
+    }
+    .adbox_adms{
+        float: left;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 5em;
+        text-align: center;
+        background: none;
+    }
+
+    .adbox_ad{
+
+        margin-top: 10em;
+        width: 100%;
+        height: 18em;
+        display:flexbox;
+        text-align: center;
+       background: none;
+    }
+
     div.pv_privacy{
         width: 100%;
         float: left;
@@ -289,6 +332,48 @@ h2.ch_control{
             margin-top: 0.5em;
             font-weight: bold;
         }
+
+.tx_adfirst{
+    color: #000000;
+    margin-top: 0.8em;
+    font-family: 'Prompt', sans-serif;
+    font-size: 260%;
+    font-weight: bold;
+    transition: font-size 1000ms;
+    -webkit-transition: font-size 1000ms;
+    -moz-transition: font-size 1000ms;
+    -ms-transition: font-size 1000ms;
+    -o-transition: font-size 1000ms;
+}
+
+h2.ads{
+    margin-top: 0.6em;
+    font-family: 'Prompt', sans-serif;
+    font-size: 120%;
+    font-weight: inherit;
+    transition: font-size 500ms;
+    cursor: pointer;
+}
+h2.ad{
+    cursor: pointer;
+    margin-top: 0em;
+    transition: font-size 500ms;
+    font-family: 'Prompt', sans-serif;
+    font-size: 130%;
+    font-weight: inherit;
+    -webkit-transition: font-size 500ms;
+    -moz-transition: font-size 500ms;
+    -ms-transition: font-size 500ms;
+    -o-transition: font-size 500ms;
+}
+h2.ads:hover,h2.ad:hover{
+    font-size: 140%;
+}
+
+
+
+
+
 
 /*!3 BUTTONS*/
 
