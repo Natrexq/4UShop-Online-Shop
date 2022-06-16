@@ -69,7 +69,7 @@
   
         <div class="home_nav_buts" >
         <div class="hmnav_cart">
-                    <button onclick="GoCart()" type="submit" class="but_gocart"></button>
+                    <button id="cart" type="submit" class="but_gocart"></button>
                     <h1 class="cartcount"><?php ?></h1>
             </div>
 
