@@ -12,7 +12,7 @@ var off = false;
 
 var valp1check = on;
 var valp2check = on;
-var valp3check = on;
+var valp3check = off;
 var valp4check = off;
 var valp5check = off;
 var valp6check = off;
