@@ -166,15 +166,14 @@ div.in_sh{
     
 }      
     div.sh_back{
-    
         position:absolute;
         width: 100%;
         height: 100%;
         filter: brightness(33%);
         background-image: url('hmimg2.jpg');
         background-size: cover;
-        -webkit-filter: brightness(30%);
-    }   
+        -webkit-filter: brightness(33%);
+}   
     div.sh_area{
         margin-top: 10em;
         position: relative;
@@ -580,6 +579,70 @@ button.but_gocart{
                     
                     opacity: 90%;
                     background-image: url('pc1.jpg');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr2{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr3{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr4{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr5{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr6{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr7{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr8{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
+                    background-size: cover;
+                    filter: none;
+                    -webkit-filter: none;
+                }
+                #impr9{
+                    
+                    opacity: 90%;
+                    background-image: url('img/box.png');
                     background-size: cover;
                     filter: none;
                     -webkit-filter: none;
