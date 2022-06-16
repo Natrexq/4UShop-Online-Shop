@@ -6,6 +6,10 @@ function DoBuy(){
     
     var product1 = document.getElementById('desp1');
     alert(product1);
+
+    product1.addEventListener('click', function Do(){
+        alert("product: 1");
+    });
    
 }
 
