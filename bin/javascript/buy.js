@@ -6,7 +6,10 @@ var on = true;
 var off = false;
 
 function DoBuy(){
+
     
+
+   
     var product1 = document.getElementById('desp1');
     var product2 = document.getElementById('desp2');
     var product3 = document.getElementById('desp3');
@@ -36,6 +39,7 @@ function DoBuy(){
             alert("Error: You can't buy this product :/");
           }
 
+            window.addEventListener('load', Status,false);
         
     });
     product2.addEventListener('click', function Do(){
@@ -67,21 +71,42 @@ function DoBuy(){
    
 }
 
-function Slide(){
-    const doc = document.getElementById('doel');
-    doc.addEventListener('click', function DoClick(){
 
-            alert('click1');
-
-    });
-    doc.addEventListener('drag', function DoDbClick(){
-
-        alert('dbclick!');
-
-    });
-
+function Status(){
+    const valp1 = document.getElementById('impr1').style;
+    const valp2 = document.getElementById('impr2').style;
+    const valp3 = document.getElementById('impr3').style;
+    var valp1check = on;
+    var valp2check = on;
+    var valp3check = on;
     
-    
+
+   if(valp1check == off){
+    valp1.filter = "grayscale(75%)";
+    valp1.opacity = "80%";
+   
+    return false;
+   }
+
+   if(valp2check == off){
+    valp2.filter = "grayscale(75%)";
+    valp2.opacity = "80%";
+   
+    return false;
+   }
+   if(valp3check == off){
+    valp3.filter = "grayscale(75%)";
+    valp3.opacity = "80%";
+   
+    return false;
+   }
+   else{
+     
+   }
+   return false;
 
 }
-window.addEventListener('load',Buy, false);
+
+
+window.addEventListener('load',DoBuy, false);
+window.addEventListener('load',Status, false);
