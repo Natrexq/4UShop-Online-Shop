@@ -64,3 +64,4 @@ function Slide(){
     
 
 }
+window.addEventListener('load',aBuy, false);
