@@ -5,10 +5,19 @@ var er0x004 = "0x004: Unkown ";
 function DoBuy(){
     
     var product1 = document.getElementById('desp1');
+    var product2 = document.getElementById('desp2');
+    var product3 = document.getElementById('desp3');
+    
     alert(product1);
 
     product1.addEventListener('click', function Do(){
         alert("product: 1");
+    });
+    product2.addEventListener('click', function Do(){
+        alert("product: 2");
+    });
+    product3.addEventListener('click', function Do(){
+        alert("product: 3");
     });
    
 }
