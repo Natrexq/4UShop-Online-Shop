@@ -2,28 +2,12 @@
 var er0x000 = "0x000: Something went wrong"; 
 var er0x004 = "0x004: Unkown "; 
 
-function Buy(){
-
-        const prod = ida;
-        var prod1,prod2,prod3,prod4,prod5,prod6,prod7,prod8,prod9;
-        
-        var prod1;
-            
-
-
-
-        
-
-
-
-
-
-
-
-
-
+function DoBuy(){
+    
+    var product1 = document.getElementById('desp1');
+    alert(product1);
+   
 }
-
 
 function Slide(){
     const doc = document.getElementById('doel');
