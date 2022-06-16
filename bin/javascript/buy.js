@@ -7,8 +7,8 @@ function DoBuy(){
     var product1 = document.getElementById('desp1');
     var product2 = document.getElementById('desp2');
     var product3 = document.getElementById('desp3');
-    
-    alert(product1);
+
+
 
     product1.addEventListener('click', function Do(){
         alert("product: 1");
