@@ -76,30 +76,96 @@ function Status(){
     const valp1 = document.getElementById('impr1').style;
     const valp2 = document.getElementById('impr2').style;
     const valp3 = document.getElementById('impr3').style;
+    //
+    const valp4 = document.getElementById('impr4').style;
+    const valp5 = document.getElementById('impr5').style;
+    const valp6 = document.getElementById('impr6').style;
+    //
+    const valp7 = document.getElementById('impr7').style;
+    const valp8 = document.getElementById('impr8').style;
+    const valp9 = document.getElementById('impr9').style;
+    //
     var valp1check = on;
-    var valp2check = on;
-    var valp3check = on;
+    var valp2check = off;
+    var valp3check = off;
+    var valp4check = off;
+    var valp5check = off;
+    var valp6check = off;
+    var valp7check = off;
+    var valp8check = off;
+    var valp9check = off;
     
-
+ // PRODUCT 1
    if(valp1check == off){
     valp1.filter = "grayscale(75%)";
     valp1.opacity = "80%";
    
-    return false;
+    
    }
-
+ // PRODUCT 2
    if(valp2check == off){
-    valp2.filter = "grayscale(75%)";
-    valp2.opacity = "80%";
+    valp2.filter = "grayscale(90%)";
+    valp2.opacity = "70%";
    
-    return false;
+
    }
+   // PRODUCT 3
    if(valp3check == off){
-    valp3.filter = "grayscale(75%)";
-    valp3.opacity = "80%";
+    valp3.filter = "grayscale(90%)";
+    valp3.opacity = "70%";
    
-    return false;
+    
    }
+   // PRODUCT 4
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+    // PRODUCT 5
+  if(valp5check == off){
+    valp5.filter = "grayscale(90%)";
+    valp5.opacity = "70%";
+   
+    
+   }
+    // PRODUCT
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+    // PRODUCT
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+    // PRODUCT
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+    // PRODUCT
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+    // PRODUCT
+  if(valp4check == off){
+    valp4.filter = "grayscale(90%)";
+    valp4.opacity = "70%";
+   
+    
+   }
+   
    else{
      
    }
