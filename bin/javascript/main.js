@@ -197,8 +197,17 @@ function ButSystem(){
 function Look(){
     document.getElementById('product').scrollIntoView();
 }
+function Shop(){
+    const shop = document.getElementById('cart');
+    shop.addEventListener('click', function DoShop(){
+            
+            location.href = "cart.php"
+
+    })
+}
 
 
 
 window.addEventListener('load', FuConnect, false);
+window.addEventListener('load', Shop, false);
 window.addEventListener('load', ButSystem, false);
