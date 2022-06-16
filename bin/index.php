@@ -121,9 +121,9 @@
                
 
                            
-                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1"  onclick="Buy(this.id)">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
-                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2" onclick="Buy(this.id)">Unkown</h2></div>
-                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" onclick="Buy(this.id)">-</h2></div>
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><h2 class="pr_desc" id="desp1"  onclick="aBuy(this.id)">Gaming PC: GTX1650 SUPER ,I5 10TH,16GB RAM,500GB HD</h2></div>
+                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2" onclick="aBuy(this.id)">Unkown</h2></div>
+                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" onclick="aBuy(this.id)">-</h2></div>
                        
                     
                         </div>
