@@ -2,7 +2,7 @@
 <img src="bin/css/image1.png" >
 
 <h2>About project</h2>
-<h4>Idk what i can write about itd :P</h4>
+<h4>Soon</h4>
 <h2>Pictures</h2>
 <br/>
 <img src="bin/css/image2.png" >
