@@ -45,5 +45,5 @@
    <h5><i>- Updated screen shots of webiste in readme.md</i></h5>
   
   <br/>
-  <h4><b>More in Update_log.txt (You won't find anything here)</b></h4>
+  <h4><b>More in Update_log.txt (You won't find anything here, i never updated it)</b></h4>
 
