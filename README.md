@@ -1,16 +1,16 @@
-# 4UShop Template of the shop (JS-PHP)
-<img src="bin/css/image1.png" >
-
+# Free online shop project - 4UShop by Natrexq
 <h2>About project</h2>
-<h4>Soon</h4>
-<h2>Pictures</h2>
+<h4>Languages who i used to make project:</h4>
+<h4><i>Javascript,Php</i></h4>
 <br/>
+<h4>I will write more info soon ok?</h4>
+<br/>
+<h4>Screenshots: (not updated for a long time xD)
+<img src="bin/css/image1.png" >
 <img src="bin/css/image2.png" >
 <img src="bin/css/image3.png" >
-<h2>Languages that i used:<h3><b>PHP,JS,REACT</b></h3><h2/>
 
-
-<b>Update log:</b>
+<b>Update log: (Honestly you won't find intresting things here..</b>
 <br/>
   <h4><b>19/05/2022</b></h4>
 <h5><i>- I started this project</i></h5>
@@ -48,5 +48,5 @@
    <h5><i>- Updated screen shots of webiste in readme.md</i></h5>
   
   <br/>
-  <h4><b>More in Update_log.txt</b></h4>
+  <h4><b>More in Update_log.txt (You won't find anything here)</b></h4>
 
