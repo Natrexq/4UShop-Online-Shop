@@ -120,22 +120,22 @@
                     <div class="in_sellback">
 
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><div class="buyform"><form id="sender1" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4GamerPC V1</button>  </form> </div><div class="sl_status"><h2 name="asda" class="pr_desc" id="desp1" >More</h2></div></div>
-                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><div class="buyform"><form id="sender2" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4HomeAio H1</button>  </form> </div><div class="sl_status"><h2 name="asda" class="pr_desc" id="desp1" >More</h2></div></div>
-                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><div class="buyform"><form id="sender3" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4GamerPC V1X OC</button>  </form></div><div class="sl_status"><h2 name="asda" class="pr_desc" id="desp1" >More</h2></div></div>
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><div class="buyform"><form id="sender1" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4GamerPC V1</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp1" >More Soon</h2></div>
+                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><div class="buyform"><form id="sender2" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4HomeAio H1</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp2" >More Soon</h2></div>
+                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><div class="buyform"><form id="sender3" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">4GamerPC V1X OC</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp3" >More Soon</h2></div>
                        
                     
                         </div>
                         
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><div class="buyform"><form id="sender4" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp4">-</h2></div>
-                            <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><div class="buyform"><form id="sender5" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp5">-</h2></div>
-                            <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><div class="buyform"><form id="sender6" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp6">-</h2></div>
+                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><div class="buyform"><form id="sender4" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp4" >More Soon</h2></div>
+                            <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><div class="buyform"><form id="sender5" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp5" >More Soon</h2></div>
+                            <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><div class="buyform"><form id="sender6" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp6" >More Soon</h2></div>
                         </div>
                         <div class="sl_sell">
-                        <div class="sl_pro" id="pr7"><div class="pr_img" id="impr7"></div><div class="buyform"><form id="sender7" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp7">-</h2></div>
-                        <div class="sl_pro" id="pr8"><div class="pr_img" id="impr8"></div><div class="buyform"><form id="sender8" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp8">-</h2></div>
-                        <div class="sl_pro" id="pr9"><div class="pr_img" id="impr9"></div><div class="buyform"><form id="sender9" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 class="pr_desc" id="desp9">-</h2></div>
+                        <div class="sl_pro" id="pr7"><div class="pr_img" id="impr7"></div><div class="buyform"><form id="sender7" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp7" >More Soon</h2></div>
+                        <div class="sl_pro" id="pr8"><div class="pr_img" id="impr8"></div><div class="buyform"><form id="sender8" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp8" >More Soon</h2></div>
+                        <div class="sl_pro" id="pr9"><div class="pr_img" id="impr9"></div><div class="buyform"><form id="sender9" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><button class="but_see" type="submit">-</button>  </form> </div><h2 name="asda" class="pr_desc" id="desp9" >More Soon</h2></div>
                         </div>
 
                     </div>
