@@ -34,7 +34,7 @@ function DoBuy(){
 
     
 
-   
+    
     var product1 = document.getElementById('desp1');
     var product2 = document.getElementById('desp2');
     var product3 = document.getElementById('desp3');
@@ -48,6 +48,7 @@ function DoBuy(){
     var product9 = document.getElementById('desp9');
 
 
+
     product1.addEventListener('click', function Do(){
         if(valp1check == off){
             alert(sold);
@@ -55,7 +56,7 @@ function DoBuy(){
         }
         else{
             //SOON
-
+            
             alert(soon);
             return false;
 
