@@ -302,5 +302,63 @@ function Status(){
 
 }
 
+function CheckForm(){
+
+
+    const sender1 = document.getElementById('sender1');
+    const sender2 = document.getElementById('sender2');
+    const sender3 = document.getElementById('sender3');
+    //
+    const sender4 = document.getElementById('sender4');
+    const sender5 = document.getElementById('sender5');
+    const sender6 = document.getElementById('sender6');
+    //
+    const sender7 = document.getElementById('sender7');
+    const sender8 = document.getElementById('sender8');
+    const sender9 = document.getElementById('sender9');
+
+
+
+    
+    
+    sender1.addEventListener("submit", function Doit(event){
+        
+        if(valp1check == off){
+
+            event.preventDefault();
+            alert(serror);
+            return false;
+            
+        }
+
+        else{
+            return true;
+        }
+
+
+        
+
+    });
+    sender2.addEventListener("submit", function Doit(event){
+        if(valp2check == off){
+            event.preventDefault();
+            alert(serror);
+            return false;   
+        }
+        else{
+            return true;
+        }
+
+    });
+    
+
+
+
+}
+
+
+
+window.addEventListener('load', CheckForm, false);
+
 window.addEventListener('load',Status, false);
 window.addEventListener('load',DoBuy, false);
