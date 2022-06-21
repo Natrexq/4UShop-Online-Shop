@@ -118,31 +118,24 @@
         <div class="in_item">
         <script src="javascript/buy.js" type="text/javascript"></script>
                     <div class="in_sellback">
+                        
                         <div class="sl_sell">
-               
-                  
-                        
-                        <script src="javascript/buy.js" type="text/javascript"></script>
-                        <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><form id="sender1" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 name="asda" class="pr_desc" id="desp1" >Gaming PC: GTX 1650 SUPER ,I5 10TH,16GB RAM,500-GB M.2</h2></div>                      
-                        
-               
-                          
-                          
+                            <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><form id="sender1" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 name="asda" class="pr_desc" id="desp1" >Gaming PC: GTX 1650 SUPER ,I5 10TH,16GB RAM,500-GB M.2</h2></div>
                             <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><form id="sender2"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 class="pr_desc" id="desp2" >All in One: UHD 639 ,I5 10400,8GB RAM,256-GB SSD</h2></div>
-                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" >-</h2></div>
+                            <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><form id="sender3"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp3" >-</h2></div>
                        
                     
                         </div>
                         
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><h2 class="pr_desc" id="desp4">-</h2></div>
-                            <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><h2 class="pr_desc" id="desp5" >-</h2></div>
-                            <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><h2 class="pr_desc" id="desp6" >-</h2></div>
+                            <div class="sl_pro" id="pr4"><div class="pr_img" id="impr4"></div><form id="sender4"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp4">-</h2></div>
+                            <div class="sl_pro" id="pr5"><div class="pr_img" id="impr5"></div><form id="sender5"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp5" >-</h2></div>
+                            <div class="sl_pro" id="pr6"><div class="pr_img" id="impr6"></div><form id="sender6"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp6" >-</h2></div>
                         </div>
                         <div class="sl_sell">
-                            <div class="sl_pro" id="pr7"><div class="pr_img" id="impr7"></div><h2 class="pr_desc" id="desp7" >-</h2></div>
-                            <div class="sl_pro" id="pr8"><div class="pr_img" id="impr8"></div><h2 class="pr_desc" id="desp8" >-</h2></div>
-                            <div class="sl_pro" id="pr9"><div class="pr_img" id="impr9"></div><h2 class="pr_desc" id="desp9" >-</h2></div>
+                            <div class="sl_pro" id="pr7"><div class="pr_img" id="impr7"></div><form id="sender7"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp7" >-</h2></div>
+                            <div class="sl_pro" id="pr8"><div class="pr_img" id="impr8"></div><form id="sender8"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp8" >-</h2></div>
+                            <div class="sl_pro" id="pr9"><div class="pr_img" id="impr9"></div><form id="sender9"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See"><h2 class="pr_desc" id="desp9" >-</h2></div>
                         </div>
 
                     </div>
