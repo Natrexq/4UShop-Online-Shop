@@ -122,13 +122,13 @@
                
                   
                         
-                        <script src="javascript/checkform.js" type="text/javascript"></script>
-                        <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><form name="test" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 name="asda" class="pr_desc" id="desp1" >Gaming PC: GTX 1650 SUPER ,I5 10TH,16GB RAM,500-GB M.2</h2></div>                      
+                        <script src="javascript/buy.js" type="text/javascript"></script>
+                        <div class="sl_pro" id="pr1"><div class="pr_img" id="impr1"></div><form id="sender1" method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 name="asda" class="pr_desc" id="desp1" >Gaming PC: GTX 1650 SUPER ,I5 10TH,16GB RAM,500-GB M.2</h2></div>                      
                         
                
                           
                           
-                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><h2 class="pr_desc" id="desp2" >All in One: UHD 639 ,I5 10400,8GB RAM,256-GB SSD</h2></div>
+                            <div class="sl_pro" id="pr2"><div class="pr_img" id="impr2"></div><form id="sender2"  method="POST" onsubmit="CheckForm()" action="idasdasndex.php"><input type="submit" value="See">  </form><h2 class="pr_desc" id="desp2" >All in One: UHD 639 ,I5 10400,8GB RAM,256-GB SSD</h2></div>
                             <div class="sl_pro" id="pr3"><div class="pr_img" id="impr3"></div><h2 class="pr_desc" id="desp3" >-</h2></div>
                        
                     
