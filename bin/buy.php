@@ -1,11 +1,18 @@
+<?php
 
+    $prod_id;
+
+    $buy_productid = "00000";
+    
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
     <!--BUY.PHP-->
     <head>
         <meta charset="utf-8"/>
-        <title>Buy(1) - 4UShop.com</title>
+        <title>Buy: (<?php echo $buy_productid;?>) - 4UShop.com</title>
         <script src="javascript/main.js" type="text/javascript"></script>
         
 
