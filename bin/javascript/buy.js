@@ -321,11 +321,11 @@ function CheckForm(){
 
     
     
-    sender1.addEventListener("submit", function Doit(event){
+    sender1.addEventListener("submit", function Check(send){
         
         if(valp1check == off){
 
-            event.preventDefault();
+            send.preventDefault();
             alert(serror);
             return false;
             
@@ -339,10 +339,11 @@ function CheckForm(){
         
 
     });
-    sender2.addEventListener("submit", function Doit(event){
+    sender2.addEventListener("submit", function Check(send){
         if(valp2check == off){
-            event.preventDefault();
+            send.preventDefault();
             alert(serror);
+            location.reload();
             return false;   
         }
         else{
@@ -350,7 +351,98 @@ function CheckForm(){
         }
 
     });
-    
+    sender3.addEventListener("submit", function Check(send){
+        if(valp3check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender4.addEventListener("submit", function Check(send){
+        if(valp4check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender5.addEventListener("submit", function Check(send){
+        if(valp5check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender6.addEventListener("submit", function Check(send){
+        if(valp6check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender7.addEventListener("submit", function Check(send){
+        if(valp7check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender8.addEventListener("submit", function Check(send){
+        if(valp8check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    sender9.addEventListener("submit", function Check(send){
+        if(valp9check == off){
+            send.preventDefault();
+            alert(serror);
+            location.reload();
+            return false;   
+        }
+        else{
+            return true;
+        }
+        return false;  
+
+    });
+    //end
 
 
 
