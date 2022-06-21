@@ -672,12 +672,13 @@ button.but_gocart{
                 
     .pr_desc{
         cursor: grab;
-        font-size: 110%;
+        font-size: 100%;
         text-align: center;
         font-family: 'Lora', serif;
-        margin-top: 0.7em;
+        margin-top: 0.3em;
         float: left;
         height: 2.5em;
+        font-weight: normal;
         width: 100%;
         transition: font-size 1s;
         -webkit-transition: font-size 1s;
@@ -685,7 +686,7 @@ button.but_gocart{
         -ms-transition: font-size 1s;
         -o-transition: font-size 1s;
 }
-    .pr_desc:hover{font-size: 115%;}
+    .pr_desc:hover{font-size: 105%;}
 
 
 
@@ -694,4 +695,30 @@ button.but_gocart{
         visibility: hidden;
         display: none;
     }
-   
+   .see{
+        background: none;
+   }
+   .buyform{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: none;
+   }
+   .but_see{
+    margin-top: 0.5em;
+    width: 12em;
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    height: 2.5em;
+    background: rgb(50, 50, 50);
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgb(174, 174, 174);
+    border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -ms-border-radius: 0.8em;
+    -o-border-radius: 0.8em;
+}
