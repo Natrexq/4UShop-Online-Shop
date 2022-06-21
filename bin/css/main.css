@@ -204,7 +204,16 @@ div.in_sh{
                     justify-content: center;
                 }
           
-   
+                #forms{
+             
+                    width: 25%;
+                    height: 95%;
+                
+                    background-color: rgb(255, 255, 255);
+                
+              
+                    
+                }
 
     
 div.in_info{
@@ -430,7 +439,7 @@ h2.ch_control{
             margin-top: 0.5em;
             font-weight: bold;
         }
-
+       
 /*!3 BUTTONS*/
 
 
@@ -660,8 +669,7 @@ button.but_gocart{
                 }
 
 
-
-
+                
     .pr_desc{
         cursor: grab;
         font-size: 110%;
@@ -686,3 +694,4 @@ button.but_gocart{
         visibility: hidden;
         display: none;
     }
+   
