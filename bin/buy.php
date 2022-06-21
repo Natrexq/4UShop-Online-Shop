@@ -1,6 +1,8 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-    <!---COOKIES-->
+    <!--BUY.PHP-->
     <head>
         <meta charset="utf-8"/>
         <title>Buy(1) - 4UShop.com</title>
