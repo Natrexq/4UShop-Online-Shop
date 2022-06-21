@@ -321,3 +321,9 @@ button.nav_navbuts{
     display: none;
 }
 
+#rights{
+    margin: 2em 0em 0em 1em;
+    color: #5a5a5a;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
