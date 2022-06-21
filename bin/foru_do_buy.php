@@ -1,10 +1,22 @@
 <?php
+    require_once "connect.php";
 
-    //php buy
+    $database_connect = @new mysqli($host, $user, $pass, $database_name);
 
-    $sql;
-    $getid;
+    if($database_connect->connect_errno!=0){
 
+        echo "Error: ".$database_connect->connect_errno;
+        
+
+    }
+   else{
+
+
+    echo "Working ";
+   
+    }   
+
+ 
 
 
 
