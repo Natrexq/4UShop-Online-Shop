@@ -111,6 +111,7 @@
 <script src="javascript/find.js" type="text/javascript"></script>
         <script src="javascript/main.js" type="text/javascript"></script>
         <script src="javascript/buy.js" type="text/javascript"></script>
+        <script src="javascript/cart.js" type="text/javascript"></script>
 
 
 
