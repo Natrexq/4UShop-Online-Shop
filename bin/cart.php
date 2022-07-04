@@ -10,10 +10,10 @@
     <head>
       
         <title>Cart (<?php echo $quantity;?>)-4UShop.com</title>
-        <script type="text/javascript">var info = "<?= $info ?>";</script>
-        <script src="javascript/main.js" type="text/javascript"></script>
-  
 
+        <script type="text/javascript">var info = "<?= $info ?>";</script>
+        <script src="javascript/find.js" type="text/javascript"></script>
+        <script src="javascript/main.js" type="text/javascript"></script>
         <script src="javascript/buy.js" type="text/javascript"></script>
     </head>
  
@@ -52,8 +52,8 @@
                                 
                                 <div class="el_srch">
                         
-                                            <input  placeholder="Type something" type="search" name="" class="inp_srch" id="">
-                                            <button class="but_dosrch" type="submit">Search</button>
+                                            <input id="srinp" placeholder="Type something" type="search" name="" class="inp_srch" >
+                                            <button id="srbut" class="but_dosrch" type="submit">Search</button>
                                      </div>
 
                     </div>
