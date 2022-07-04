@@ -56,7 +56,8 @@ function DoBuy(){
         }
         else{
             //SOON
-            
+            document.cookie = "cart=product1";
+            var add1 = document.cookie;
             alert(soon);
             return false;
 
