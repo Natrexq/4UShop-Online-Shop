@@ -1,26 +1,15 @@
 function Search(){
     // it works !alert("Test comunicate!");
  
-    const srchval = document.getElementById('');
-    const srchbut = document.getElementsById('');
-    
-    const id = "";
-    
-  srchbut.addEventListener('click', DoSearch,false);
+   var srchbut = document.getElementById('srchbut');
 
-
-        function DoSearch(){
-
-            if(srchval == "computer"){
-
-                location.href = "index.php";
-
-
+    srchbut.addEventListener('click', DoSearch,false);
+            function DoSearch(){
+                alert("asdsadasdasdas");
             }
 
-        }
 
-
+   alert(srchbut);
 }
 
 window.addEventListener('load', Search,false);
