@@ -17,6 +17,8 @@
   
 
         <script src="javascript/buy.js" type="text/javascript"></script>
+    
+
     </head>
  
     <body onload="Main()">
