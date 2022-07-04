@@ -12,9 +12,7 @@
         <title>Cart (<?php echo $quantity;?>)-4UShop.com</title>
 
         <script type="text/javascript">var info = "<?= $info ?>";</script>
-        <script src="javascript/find.js" type="text/javascript"></script>
-        <script src="javascript/main.js" type="text/javascript"></script>
-        <script src="javascript/buy.js" type="text/javascript"></script>
+  
     </head>
  
     <body onload="Main()">
@@ -110,7 +108,9 @@
 </div>
 
 
-    
+<script src="javascript/find.js" type="text/javascript"></script>
+        <script src="javascript/main.js" type="text/javascript"></script>
+        <script src="javascript/buy.js" type="text/javascript"></script>
 
 
 
