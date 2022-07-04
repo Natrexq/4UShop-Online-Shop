@@ -12,13 +12,6 @@
         <title>4UShop.com</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <script type="text/javascript">var info = "<?= $info ?>";</script>
-        <script src="javascript/find.js" type="text/javascript"></script>
-        <script src="javascript/buy.js" type="text/javascript"></script>      
-        <script src="javascript/main.js" type="text/javascript"></script>
-  
-
-        
     
 
     </head>
@@ -179,6 +172,20 @@
 
     
 
+
+
+
+
+
+
+    
+        <script type="text/javascript">var info = "<?= $info ?>";</script>
+        <script src="javascript/find.js" type="text/javascript"></script>
+        <script src="javascript/buy.js" type="text/javascript"></script>      
+        <script src="javascript/main.js" type="text/javascript"></script>
+  
+
+        
 
 
 
