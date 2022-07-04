@@ -208,6 +208,16 @@ function Shop(){
 
 
 
+
+
+
+
+
+
+
+
+
+
 window.addEventListener('load', FuConnect, false);
 window.addEventListener('load', Shop, false);
 window.addEventListener('load', ButSystem, false);
