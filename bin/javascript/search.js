@@ -1,9 +1,9 @@
 function Search(){
     // it works !alert("Test comunicate!");
-
+ 
     const srchval = document.getElementById('');
     const srchbut = document.getElementsById('');
-
+    
     const id = "";
     
   srchbut.addEventListener('click', DoSearch,false);
@@ -22,4 +22,5 @@ function Search(){
 
 
 }
+
 window.addEventListener('load', Search,false);
